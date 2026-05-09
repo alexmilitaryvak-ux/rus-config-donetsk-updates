@@ -1,3 +1,4 @@
-{
-  "manifest": "https://example.com/rus-config/version.json"
+﻿{
+  "manifest": "https://raw.githubusercontent.com/alexmilitaryvak-ux/rus-config-donetsk-updates/main/version.json",
+  "token": "PASTE_GITHUB_TOKEN_HERE"
 }
