@@ -1,12 +1,13 @@
 {
-  "version": "3.3.0",
-  "title": "RUS Config Donetsk beta 3.3",
-  "package": "RUS_Config_Donetsk_3.3.0.zip",
+  "version": "3.4.0",
+  "title": "RUS Config Donetsk beta 3.4",
+  "package": "RUS_Config_Donetsk_3.4.0.zip",
   "date": "2026-05-09",
   "notes": [
-    "Добавлен DUMP ПВХ-1 HAKRCF405V2 (серый) EOX",
-    "Добавлен файл дампа 610002-gray-smart-eox.txt",
-    "Сохранена поддержка приватных обновлений через кнопку Обновить программу"
+    "Исправлена кнопка Обновить программу",
+    "Добавлено окно прогресса при обновлении программы",
+    "Обновлятор теперь ждет закрытия приложения перед заменой файлов",
+    "Сохранен DUMP ПВХ-1 HAKRCF405V2 (серый) EOX"
   ],
-  "packageUrl": "https://api.github.com/repos/alexmilitaryvak-ux/rus-config-donetsk-updates/contents/RUS_Config_Donetsk_3.3.0.zip?ref=main"
+  "packageUrl": "https://api.github.com/repos/alexmilitaryvak-ux/rus-config-donetsk-updates/contents/RUS_Config_Donetsk_3.4.0.zip?ref=main"
 }
