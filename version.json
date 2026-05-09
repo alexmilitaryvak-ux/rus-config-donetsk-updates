@@ -1,13 +1,12 @@
 {
-    "version":  "3.2.0",
-    "title":  "RUS Config Donetsk beta 3.2",
-    "package":  "RUS_Config_Donetsk_3.2.0.zip",
-    "date":  "2026-05-09",
-    "notes":  [
-                  "Обновлен внешний вид левого меню",
-                  "Добавлен красный переливающийся фон панели вкладок",
-                  "Добавлен более мягкий фон рабочей области",
-                  "Улучшены сообщения для приватных обновлений"
-              ],
-    "packageUrl":  "https://api.github.com/repos/alexmilitaryvak-ux/rus-config-donetsk-updates/contents/RUS_Config_Donetsk_3.2.0.zip?ref=main"
+  "version": "3.3.0",
+  "title": "RUS Config Donetsk beta 3.3",
+  "package": "RUS_Config_Donetsk_3.3.0.zip",
+  "date": "2026-05-09",
+  "notes": [
+    "Добавлен DUMP ПВХ-1 HAKRCF405V2 (серый) EOX",
+    "Добавлен файл дампа 610002-gray-smart-eox.txt",
+    "Сохранена поддержка приватных обновлений через кнопку Обновить программу"
+  ],
+  "packageUrl": "https://api.github.com/repos/alexmilitaryvak-ux/rus-config-donetsk-updates/contents/RUS_Config_Donetsk_3.3.0.zip?ref=main"
 }
