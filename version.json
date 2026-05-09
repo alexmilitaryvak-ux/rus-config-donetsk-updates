@@ -8,5 +8,6 @@
                   "Добавлен красный переливающийся фон панели вкладок",
                   "Добавлен более мягкий фон рабочей области",
                   "Улучшены сообщения для приватных обновлений"
-              ]
+              ],
+    "packageUrl":  "https://api.github.com/repos/alexmilitaryvak-ux/rus-config-donetsk-updates/contents/RUS_Config_Donetsk_3.2.0.zip?ref=main"
 }
