@@ -1,13 +1,13 @@
 {
   "version": "3.8.0",
   "title": "RUS Config Donetsk beta 3.8",
-  "package": "RUS_Config_Donetsk_3.8.0.zip",
+  "package": "RUS_Config_Donetsk_3.8.0_WITH_INAV.zip",
   "date": "2026-05-10",
   "notes": [
+    "Полный пакет со встроенными INAV Configurator 7/8/9 в папке INAV внутри RUS Config Donetsk.",
     "Кнопка Обновить программу запускает приватный RUN_PRIVATE_UPDATE_ONCE.cmd и показывает окно загрузки.",
-    "Приватный updater ждёт закрытия RUS Config, скачивает zip из GitHub и снова открывает программу.",
-    "Добавлена поддержка встроенных INAV 7/8/9 из папки INAV внутри RUS Config Donetsk.",
+    "Приватный updater ждёт закрытия RUS Config, скачивает большой zip из GitHub Release и снова открывает программу.",
     "INAV 9 умеет возвращаться в стартовый конфигуратор через отдельный Electron-канал."
   ],
-  "packageUrl": "https://api.github.com/repos/alexmilitaryvak-ux/rus-config-donetsk-updates/contents/RUS_Config_Donetsk_3.8.0.zip?ref=main"
+  "packageUrl": "https://api.github.com/repos/alexmilitaryvak-ux/rus-config-donetsk-updates/releases/assets/416884725"
 }
