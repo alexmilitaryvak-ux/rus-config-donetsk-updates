@@ -1,7 +1,7 @@
 {
-  "version": "3.12.0",
-  "title": "RUS Config Donetsk beta 3.12",
-  "package": "RUS_Config_Donetsk_3.12.0_WITH_INAV.zip",
+  "version": "3.13.0",
+  "title": "RUS Config Donetsk beta 3.13",
+  "package": "RUS_Config_Donetsk_3.13.0_WITH_INAV.zip",
   "date": "2026-05-11",
   "notes": [
     "Во всех INAV 7/8/9 улучшена вкладка Конструктор Logic под CLI.",
@@ -9,7 +9,8 @@
     "В инструкции добавлены понятные примеры, включая переключение мощности VTX на AUX5.",
     "Банер возврата на приветственном экране INAV возвращён на российский флаг.",
     "Флаг ДНР теперь стоит фоном всей верхней шапки INAV 7/8/9, а все штатные кнопки, датчики и элементы подключения остаются поверх.",
-    "Текст RUS Config Donetsk из верхней шапки INAV убран, чтобы он не перекрывал вкладки и датчики."
+    "Текст RUS Config Donetsk из верхней шапки INAV убран, чтобы он не перекрывал вкладки и датчики.",
+    "В INAV 9 выровнен приветственный текст под логотипом, теперь он не падает на панель Discord/Facebook."
   ],
-  "packageUrl": "https://api.github.com/repos/alexmilitaryvak-ux/rus-config-donetsk-updates/releases/assets/417166017"
+  "packageUrl": "https://api.github.com/repos/alexmilitaryvak-ux/rus-config-donetsk-updates/releases/assets/417209284"
 }
