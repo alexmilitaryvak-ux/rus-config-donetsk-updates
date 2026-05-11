@@ -1,13 +1,15 @@
 {
-  "version": "3.8.0",
-  "title": "RUS Config Donetsk beta 3.8",
-  "package": "RUS_Config_Donetsk_3.8.0_WITH_INAV.zip",
-  "date": "2026-05-10",
+  "version": "3.12.0",
+  "title": "RUS Config Donetsk beta 3.12",
+  "package": "RUS_Config_Donetsk_3.12.0_WITH_INAV.zip",
+  "date": "2026-05-11",
   "notes": [
-    "Полный пакет со встроенными INAV Configurator 7/8/9 в папке INAV внутри RUS Config Donetsk.",
-    "Кнопка Обновить программу запускает приватный RUN_PRIVATE_UPDATE_ONCE.cmd и показывает окно загрузки.",
-    "Приватный updater ждёт закрытия RUS Config, скачивает большой zip из GitHub Release и снова открывает программу.",
-    "INAV 9 умеет возвращаться в стартовый конфигуратор через отдельный Electron-канал."
+    "Во всех INAV 7/8/9 улучшена вкладка Конструктор Logic под CLI.",
+    "Внизу конструктора добавлена подробная инструкция по вкладкам AUX + действие, AUX, Полёт, Логика, Ручной и CLI.",
+    "В инструкции добавлены понятные примеры, включая переключение мощности VTX на AUX5.",
+    "Банер возврата на приветственном экране INAV возвращён на российский флаг.",
+    "Флаг ДНР теперь стоит фоном всей верхней шапки INAV 7/8/9, а все штатные кнопки, датчики и элементы подключения остаются поверх.",
+    "Текст RUS Config Donetsk из верхней шапки INAV убран, чтобы он не перекрывал вкладки и датчики."
   ],
-  "packageUrl": "https://api.github.com/repos/alexmilitaryvak-ux/rus-config-donetsk-updates/releases/assets/416884725"
+  "packageUrl": "https://api.github.com/repos/alexmilitaryvak-ux/rus-config-donetsk-updates/releases/assets/417166017"
 }
