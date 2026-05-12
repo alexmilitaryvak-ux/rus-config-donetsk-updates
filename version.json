@@ -1,13 +1,13 @@
-{
-  "version": "3.15.9",
-  "appVersion": "1.5",
-  "displayVersion": "Version 1.5",
-  "title": "RUS Config Donetsk Version 1.5",
-  "package": "RUS_Config_Donetsk_1.5_UPDATE_PROGRESS.zip",
-  "date": "2026-05-12",
-  "notes": [
-    "Исправлено отображение текущей версии во вкладке Обновление программы.",
-    "Вкладка теперь берёт версию из window.vm.CONFIGURATOR, chrome runtime или package.json, а не из старой заглушки Version 1.0."
-  ],
-  "packageUrl": "https://raw.githubusercontent.com/alexmilitaryvak-ux/rus-config-donetsk-updates/main/RUS_Config_Donetsk_1.5_UPDATE_PROGRESS.zip"
+﻿{
+    "version":  "3.15.10",
+    "appVersion":  "1.6",
+    "displayVersion":  "Version 1.6",
+    "title":  "RUS Config Donetsk Version 1.6",
+    "package":  "RUS_Config_Donetsk_1.6_UPDATE_PROGRESS.zip",
+    "date":  "2026-05-12",
+    "notes":  [
+                  "Приветственный экран теперь обновляет надпись Version из текущей версии программы.",
+                  "Файл landing.js добавлен в пакет обновления, чтобы номер версии совпадал после установки на другом компьютере."
+              ],
+    "packageUrl":  "https://raw.githubusercontent.com/alexmilitaryvak-ux/rus-config-donetsk-updates/main/RUS_Config_Donetsk_1.6_UPDATE_PROGRESS.zip"
 }
