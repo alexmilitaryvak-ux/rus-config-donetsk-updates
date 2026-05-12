@@ -1,13 +1,14 @@
-﻿{
-    "version":  "3.15.10",
-    "appVersion":  "1.6",
-    "displayVersion":  "Version 1.6",
-    "title":  "RUS Config Donetsk Version 1.6",
-    "package":  "RUS_Config_Donetsk_1.6_UPDATE_PROGRESS.zip",
-    "date":  "2026-05-12",
-    "notes":  [
-                  "Приветственный экран теперь обновляет надпись Version из текущей версии программы.",
-                  "Файл landing.js добавлен в пакет обновления, чтобы номер версии совпадал после установки на другом компьютере."
-              ],
-    "packageUrl":  "https://raw.githubusercontent.com/alexmilitaryvak-ux/rus-config-donetsk-updates/main/RUS_Config_Donetsk_1.6_UPDATE_PROGRESS.zip"
+{
+  "version": "3.15.10",
+  "appVersion": "1.6",
+  "displayVersion": "Version 1.6",
+  "title": "RUS Config Donetsk Version 1.6",
+  "package": "RUS_Config_Donetsk_1.6_GREEN_EOU_UPDATE.zip",
+  "date": "2026-05-12",
+  "notes": [
+    "Во вкладку Готовые DUMP для дрона Боец добавлен вариант AOCODARCF405V3 (Зеленый) EOU из EOU GREEN.txt.",
+    "В списке полетных контроллеров вариант подписан с пометкой (Зеленый).",
+    "Плашка версии оставлена на приветственном экране и убрана с экранов авторизации. Установщик не собирался, это только zip-обновление."
+  ],
+  "packageUrl": "https://api.github.com/repos/alexmilitaryvak-ux/rus-config-donetsk-updates/releases/assets/418665579"
 }
