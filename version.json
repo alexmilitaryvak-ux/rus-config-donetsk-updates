@@ -1,15 +1,16 @@
 {
     "version":  "3.15.10",
-    "appVersion":  "1.7",
-    "displayVersion":  "Version 1.7",
-    "title":  "RUS Config Donetsk Version 1.7",
-    "package":  "RUS_Config_Donetsk_1.7_UPDATE_PROGRESS.zip",
+    "appVersion":  "1.8",
+    "displayVersion":  "Version 1.8",
+    "title":  "RUS Config Donetsk Version 1.8",
+    "package":  "RUS_Config_Donetsk_1.8_UPDATE_PROGRESS.zip",
     "date":  "2026-05-13",
     "notes":  [
-                  "Во вкладку Прошивки Offline добавлен новый раздел ------TBF v7.9-------.",
-                  "Добавлены 25 offline HEX-прошивок TBF v7.9.",
-                  "Названия контроллеров в списке очищены от TBF79_ и символов подчеркивания.",
-                  "Пакет обновления устанавливается через вкладку Обновление программы без нового Setup.exe."
+                  "Во вкладке Прошивки Offline добавлен блок Инструкции к прошивкам.",
+                  "Добавлены инструкции TBF version 8.1 и TBF version 7.9 с открытием PDF из папки программы.",
+                  "Пакет TBF v7.9 расширен до 83 offline HEX-прошивок.",
+                  "Названия контроллеров в списке TBF v7.9 отображаются без TBF79_ и без символов подчеркивания.",
+                  "Обновление устанавливается через вкладку Обновление программы без нового Setup.exe."
               ],
-    "packageUrl":  "https://api.github.com/repos/alexmilitaryvak-ux/rus-config-donetsk-updates/releases/assets/418739029"
+    "packageUrl":  "https://api.github.com/repos/alexmilitaryvak-ux/rus-config-donetsk-updates/releases/assets/418750563"
 }
