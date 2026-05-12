@@ -7,5 +7,5 @@
     "Добавлен готовый DUMP для Боец (Fighter): AOCODARCF405V3 (Зеленый) EOU.",
     "Внутренняя версия программы поднята до 3.15.0, чтобы вкладка обновления корректно видела актуальную версию."
   ],
-  "packageUrl": "https://api.github.com/repos/alexmilitaryvak-ux/rus-config-donetsk-updates/releases/assets/418398971"
+  "packageUrl": "https://github.com/alexmilitaryvak-ux/rus-config-donetsk-updates/releases/download/rcd-3.15.0/RUS_Config_Donetsk_3.15.0_GREEN_EOU.zip"
 }
