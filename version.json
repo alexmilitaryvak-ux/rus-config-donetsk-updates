@@ -1,13 +1,13 @@
 {
-  "version": "3.15.3",
-  "title": "RUS Config Donetsk beta 3.15.3",
-  "package": "RUS_Config_Donetsk_3.15.3_UPDATE_PROGRESS.zip",
+  "version": "3.15.4",
+  "title": "RUS Config Donetsk beta 3.15.4",
+  "package": "RUS_Config_Donetsk_3.15.4_UPDATE_PROGRESS.zip",
   "date": "2026-05-12",
   "notes": [
-    "Исправлен старый или неправильный update-request.json: launcher перед запуском обновления пересоздает его с реальной папкой программы.",
-    "Updater теперь использует fallback к папке рядом с собой, если AppRoot из request-файла не существует.",
-    "Исправлена ошибка, когда update.log пытался записаться в несуществующую папку.",
-    "Сохранен видимый прогресс скачивания и установки."
+    "Добавлена обязательная проверка установленной версии после копирования файлов.",
+    "Updater теперь проверяет, что AppRoot содержит RUS Config Donetsk.exe.",
+    "В update.log пишутся Install root, Expected version и Installed version.",
+    "Если версия после установки не изменилась, updater покажет ошибку вместо тихого завершения."
   ],
-  "packageUrl": "https://github.com/alexmilitaryvak-ux/rus-config-donetsk-updates/releases/download/rcd-3.15.3/RUS_Config_Donetsk_3.15.3_UPDATE_PROGRESS.zip"
+  "packageUrl": "https://github.com/alexmilitaryvak-ux/rus-config-donetsk-updates/releases/download/rcd-3.15.4/RUS_Config_Donetsk_3.15.4_UPDATE_PROGRESS.zip"
 }
