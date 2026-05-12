@@ -1,15 +1,11 @@
 {
-  "version": "3.14.0",
-  "title": "RUS Config Donetsk beta 3.14",
-  "package": "RUS_Config_Donetsk_3.14.0_WITH_INAV.zip",
+  "version": "3.15.0",
+  "title": "RUS Config Donetsk beta 3.15",
+  "package": "RUS_Config_Donetsk_3.15.0_GREEN_EOU.zip",
   "date": "2026-05-12",
   "notes": [
-    "Добавлена вкладка ELRS Configurator со встроенным elrsweb.ru и переключением на ExpressLRS Web Flasher.",
-    "Добавлена вкладка Руководства с открытием technobee.ru внутри конфигуратора.",
-    "Добавлена вкладка G13 с переходом на g13.fvds.ru/landing и значком G.",
-    "Во вкладку G13 добавлена настройка запоминания входа и сброса входа.",
-    "Обновление программы теперь запускается через version.json и zip-пакет, без старого приватного RUN_PRIVATE_UPDATE_ONCE.cmd.",
-    "В новый пакет добавлены свежие JS/CSS/common/updater-файлы и встроенный INAV."
+    "Добавлен готовый DUMP для Боец (Fighter): AOCODARCF405V3 (Зеленый) EOU.",
+    "Внутренняя версия программы поднята до 3.15.0, чтобы вкладка обновления корректно видела актуальную версию."
   ],
-  "packageUrl": "https://api.github.com/repos/alexmilitaryvak-ux/rus-config-donetsk-updates/releases/assets/418118845"
+  "packageUrl": "https://api.github.com/repos/alexmilitaryvak-ux/rus-config-donetsk-updates/releases/assets/418398971"
 }
