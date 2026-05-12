@@ -1,12 +1,13 @@
 {
-  "version": "3.15.1",
-  "title": "RUS Config Donetsk beta 3.15.1",
-  "package": "RUS_Config_Donetsk_3.15.1_UPDATE_PROGRESS.zip",
+  "version": "3.15.2",
+  "title": "RUS Config Donetsk beta 3.15.2",
+  "package": "RUS_Config_Donetsk_3.15.2_UPDATE_PROGRESS.zip",
   "date": "2026-05-12",
   "notes": [
-    "Добавлена видимая загрузка установки обновления: окно запуска, прогресс скачивания и этапы установки.",
-    "Если обновление не выполнится, окно покажет update.log, а рядом с программой появится update-launch.log.",
+    "Исправлена ошибка запуска обновления в папке с пробелами: путь RUS Config Donetsk больше не разрезается на части.",
+    "Параметры обновления теперь передаются через update-request.json, поэтому launcher работает надежнее.",
+    "Оставлены видимый прогресс скачивания и установки, update-launch.log и показ update.log при ошибке.",
     "Сохранен готовый DUMP для Боец (Fighter): AOCODARCF405V3 (Зеленый) EOU."
   ],
-  "packageUrl": "https://github.com/alexmilitaryvak-ux/rus-config-donetsk-updates/releases/download/rcd-3.15.1/RUS_Config_Donetsk_3.15.1_UPDATE_PROGRESS.zip"
+  "packageUrl": "https://github.com/alexmilitaryvak-ux/rus-config-donetsk-updates/releases/download/rcd-3.15.2/RUS_Config_Donetsk_3.15.2_UPDATE_PROGRESS.zip"
 }
