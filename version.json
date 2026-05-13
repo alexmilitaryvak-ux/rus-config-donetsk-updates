@@ -1,16 +1,17 @@
 {
-    "version":  "3.15.10",
-    "appVersion":  "1.9",
-    "displayVersion":  "Version 1.9",
-    "title":  "RUS Config Donetsk Version 1.9",
-    "package":  "RUS_Config_Donetsk_1.9_UPDATE_PROGRESS.zip",
-    "date":  "2026-05-13",
-    "notes":  [
-                  "При автоопределении полетного контроллера теперь показывается окно выбора, если для найденного target доступно несколько offline прошивок.",
-                  "В окне можно выбрать нужную версию прошивки, например SKYSTARSF405V2 TBF v7.9.",
-                  "Сохранены инструкции TBF version 8.1 и TBF version 7.9 во вкладке Прошивки Offline.",
-                  "Пакет TBF v7.9 содержит 83 offline HEX-прошивки.",
-                  "Обновление устанавливается через вкладку Обновление программы без нового Setup.exe."
-              ],
-    "packageUrl":  "https://api.github.com/repos/alexmilitaryvak-ux/rus-config-donetsk-updates/releases/assets/418755261"
+  "version": "1.10",
+  "appVersion": "1.10",
+  "displayVersion": "Version 1.10",
+  "title": "RUS Config Donetsk Version 1.10",
+  "package": "RUS_Config_Donetsk_1.10_UPDATE_PROGRESS.zip",
+  "date": "2026-05-13",
+  "notes": [
+    "Добавлены новые offline прошивки TBF v8.1: SPEEDYBEEF405MINI, SPEEDYBEEF405V3, AOCODARCF405V3, FLYFISHRCF405, FOXEERF722V4, GEPRC TAKER H743, MATEKF405TE, RC405, RUSTAKF405, SKYSTARSF405V2.",
+    "Исправлено автоопределение MILBETA: прошивки с MCU-префиксом вроде STM32F405 HAKRCF405V2 теперь предлагаются для найденного таргета HAKRCF405V2.",
+    "Сохранены offline прошивки TBF v8.1, TBF v7.9, MILBETA v1.23, инструкции к прошивкам и OSD-пресеты.",
+    "Обновление устанавливается через кнопку Обновление программы без полного Setup.exe."
+  ],
+  "packageUrl": "https://github.com/alexmilitaryvak-ux/rus-config-donetsk-updates/releases/download/rcd-1.10/RUS_Config_Donetsk_1.10_UPDATE_PROGRESS.zip",
+  "assetApiUrl": "https://api.github.com/repos/alexmilitaryvak-ux/rus-config-donetsk-updates/releases/assets/419580518",
+  "sha256": "4fc9b40685220d5312e2e026b64a616f20fd8ff65c50df3cb17964953c3b79cb"
 }
