@@ -1,17 +1,18 @@
 {
-  "version": "1.10",
-  "appVersion": "1.10",
-  "displayVersion": "Version 1.10",
-  "title": "RUS Config Donetsk Version 1.10",
-  "package": "RUS_Config_Donetsk_1.10_UPDATE_PROGRESS.zip",
-  "date": "2026-05-13",
+  "version": "1.11",
+  "appVersion": "1.11",
+  "displayVersion": "Version 1.11",
+  "title": "RUS Config Donetsk Version 1.11",
+  "package": "RUS_Config_Donetsk_1.11_UPDATE_PROGRESS.zip",
+  "date": "2026-05-16",
   "notes": [
-    "Добавлены новые offline прошивки TBF v8.1: SPEEDYBEEF405MINI, SPEEDYBEEF405V3, AOCODARCF405V3, FLYFISHRCF405, FOXEERF722V4, GEPRC TAKER H743, MATEKF405TE, RC405, RUSTAKF405, SKYSTARSF405V2.",
-    "Исправлено автоопределение MILBETA: прошивки с MCU-префиксом вроде STM32F405 HAKRCF405V2 теперь предлагаются для найденного таргета HAKRCF405V2.",
-    "Сохранены offline прошивки TBF v8.1, TBF v7.9, MILBETA v1.23, инструкции к прошивкам и OSD-пресеты.",
+    "Добавлен PID мастер BF: подбор стартовых PID, фильтров, rates и безопасных откатов.",
+    "Добавлен раздел Blackbox в PID мастере: чтение логов, анализ CSV и запуск локального Blackbox Explorer.",
+    "Добавлены режимы удержания/помощники для настройки AUX.",
+    "Обновлены VTX таблицы, готовые DUMP и INAV PID Builder.",
     "Обновление устанавливается через кнопку Обновление программы без полного Setup.exe."
   ],
-  "packageUrl": "https://github.com/alexmilitaryvak-ux/rus-config-donetsk-updates/releases/download/rcd-1.10/RUS_Config_Donetsk_1.10_UPDATE_PROGRESS.zip",
-  "assetApiUrl": "https://api.github.com/repos/alexmilitaryvak-ux/rus-config-donetsk-updates/releases/assets/419580518",
-  "sha256": "4fc9b40685220d5312e2e026b64a616f20fd8ff65c50df3cb17964953c3b79cb"
+  "packageUrl": "https://github.com/alexmilitaryvak-ux/rus-config-donetsk-updates/releases/download/rcd-1.11/RUS_Config_Donetsk_1.11_UPDATE_PROGRESS.zip",
+  "assetApiUrl": "https://api.github.com/repos/alexmilitaryvak-ux/rus-config-donetsk-updates/releases/assets/421941058",
+  "sha256": "7456335aa65afc783348062dd4f40585e335ab33e4df83bd7253743748e2ab24"
 }
