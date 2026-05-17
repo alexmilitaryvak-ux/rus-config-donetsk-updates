@@ -1,16 +1,16 @@
 {
-  "version": "1.13",
-  "appVersion": "1.13",
-  "displayVersion": "Version 1.13",
-  "title": "RUS Config Donetsk Version 1.13",
-  "package": "RUS_Config_Donetsk_1.13_PID_TAB_FIX.zip",
-  "date": "2026-05-16",
+  "version": "1.14",
+  "appVersion": "1.14",
+  "displayVersion": "Version 1.14",
+  "title": "RUS Config Donetsk Version 1.14",
+  "package": "RUS_Config_Donetsk_1.14_READY_DUMPS_SORT.zip",
+  "date": "2026-05-17",
   "notes": [
-    "Срочное исправление открытия вкладки PID Master после версии 1.12.",
-    "Исправлена ошибка rpmInfo в сборке CLI и таблицы настроек, из-за которой вкладка могла не включаться.",
-    "Сохранена безопасная логика RPM Auto: без подтверждения мастер не будет насильно менять dshot_bidir."
+    "Во вкладке Готовые DUMP список дронов отсортирован по алфавиту.",
+    "Вложенный список Полетный контроллер теперь тоже отсортирован по алфавиту.",
+    "Сортировка учитывает русские названия и числа в именах."
   ],
-  "packageUrl": "https://github.com/alexmilitaryvak-ux/rus-config-donetsk-updates/releases/download/rcd-1.13/RUS_Config_Donetsk_1.13_PID_TAB_FIX.zip",
-  "assetApiUrl": "https://api.github.com/repos/alexmilitaryvak-ux/rus-config-donetsk-updates/releases/assets/421978984",
-  "sha256": "3dc4eadb91d41db51f304c87ed9e691314d0c504ffe02038527df1e1a2a7da86"
+  "packageUrl": "https://github.com/alexmilitaryvak-ux/rus-config-donetsk-updates/releases/download/rcd-1.14/RUS_Config_Donetsk_1.14_READY_DUMPS_SORT.zip",
+  "assetApiUrl": "https://api.github.com/repos/alexmilitaryvak-ux/rus-config-donetsk-updates/releases/assets/422304793",
+  "sha256": "45a46e686eb5b5d4566f87009b20fadf6a9706b9e681b2793bb9cb34a2c71bf2"
 }
