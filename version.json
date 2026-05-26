@@ -1,16 +1,18 @@
 {
-  "version": "1.16",
-  "appVersion": "1.16",
-  "displayVersion": "Version 1.16",
-  "title": "RUS Config Donetsk Version 1.16",
-  "package": "RUS_Config_Donetsk_1.16_G13_BOOMERANG_DUMP.zip",
-  "date": "2026-05-23",
+  "version": "1.17",
+  "appVersion": "1.17",
+  "displayVersion": "Version 1.17",
+  "title": "RUS Config Donetsk Version 1.17",
+  "package": "RUS_Config_Donetsk_1.17_FULL_TABS_UPDATE.zip",
+  "date": "2026-05-26",
   "notes": [
-    "Исправлен ярлык вкладки G13: буква G теперь контрастная и не сливается с белой плашкой.",
-    "Заменен готовый DUMP для дрона Бумеранг на FOXEERF405V2 G13 EOU.",
-    "Пакет собран на базе 1.15 и включает актуальные правки экрана приветствия, логотипа и дампов."
+    "Полный пакет обновления интерфейса и вкладок.",
+    "Исправлено: после обновления не пропадают вкладки PID мастер BF и Hold режимы.",
+    "Включены все последние вкладки и правки: Готовые DUMP, добавление/удаление DUMP, фото дрона, VTX готовые таблицы, ELRS Configurator, G13, Админ инфо и Прошивки Offline.",
+    "Добавлены актуальные готовые DUMP, включая Бумеранг FOXEERF405V2 G13 EOU.",
+    "Личная лицензия, токены и локальные пользовательские файлы не входят в обновление."
   ],
-  "packageUrl": "https://github.com/alexmilitaryvak-ux/rus-config-donetsk-updates/releases/download/rcd-1.16/RUS_Config_Donetsk_1.16_G13_BOOMERANG_DUMP.zip",
-  "assetApiUrl": "https://api.github.com/repos/alexmilitaryvak-ux/rus-config-donetsk-updates/releases/assets/427944135",
-  "sha256": "3c913ec74b6df8f844d3aa893b8d05cd8274bc652bd9acd0f4ed1c0fbe4905a8"
+  "packageUrl": "https://github.com/alexmilitaryvak-ux/rus-config-donetsk-updates/releases/download/rcd-1.17/RUS_Config_Donetsk_1.17_FULL_TABS_UPDATE.zip",
+  "assetApiUrl": "https://api.github.com/repos/alexmilitaryvak-ux/rus-config-donetsk-updates/releases/assets/430168048",
+  "sha256": "BAD61914CC40EA4E5044662820DA0E13609B8521B69A4F70AF02250D25C8F565"
 }
