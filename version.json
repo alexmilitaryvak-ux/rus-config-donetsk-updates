@@ -1,19 +1,21 @@
 {
-  "version": "1.18",
-  "appVersion": "1.18",
-  "displayVersion": "Version 1.18",
-  "title": "RUS Config Donetsk Version 1.18",
-  "package": "RUS_Config_Donetsk_1.18_RESOURCE_OFFLINE_UPDATE.zip",
+  "version": "1.19",
+  "appVersion": "1.19",
+  "displayVersion": "Version 1.19",
+  "title": "RUS Config Donetsk Version 1.19",
+  "package": "RUS_Config_Donetsk_1.19_CUMULATIVE_UPDATE.zip",
   "date": "2026-05-26",
+  "cumulative": true,
   "notes": [
-    "Добавлен Конструктор Resource во вкладках подключения: чтение resource и serial с полетного контроллера без перезагрузки подключения.",
-    "В Конструкторе Resource добавлено назначение UART, выбор скорости, SmartAudio VTX и IRC Tramp VTX.",
+    "Накопительное обновление: включает все функции прошлых публичных обновлений, чтобы пользователи могли обновляться с любой старой версии без пропусков вкладок.",
+    "Включены вкладки и функции Управы/ELRS/G13/Готовые DUMP/Offline прошивки/Hold режимы/PID мастер BF и другие правки полной базы 1.17.",
+    "Добавлен Конструктор Resource: чтение resource и serial с полетного контроллера без перезагрузки подключения, UART, скорости, SmartAudio VTX и IRC Tramp VTX.",
     "В Offline прошивках добавлено скачивание прошивки с полетного контроллера в BIN и HEX.",
     "Добавлена offline-прошивка RC405ICM42688 (Оптика), Betaflight 4.4.2 / MSP API 1.45.",
     "Во вкладке Hold режимы статус готовности теперь зеленый, а Не готово отображается красным.",
-    "Убраны лишние режимы интерфейса Конструктора Resource."
+    "Локальная авторизация, лицензия, токены и пользовательские файлы не входят в пакет и не должны перетираться."
   ],
-  "packageUrl": "https://github.com/alexmilitaryvak-ux/rus-config-donetsk-updates/releases/download/rcd-1.18/RUS_Config_Donetsk_1.18_RESOURCE_OFFLINE_UPDATE.zip",
-  "assetApiUrl": "https://api.github.com/repos/alexmilitaryvak-ux/rus-config-donetsk-updates/releases/assets/430383371",
-  "sha256": "66A09A073F04FB1201F2400545FB05B1B740FDCA4B03FC6EE736EFE849CAA508"
+  "packageUrl": "https://github.com/alexmilitaryvak-ux/rus-config-donetsk-updates/releases/download/rcd-1.19/RUS_Config_Donetsk_1.19_CUMULATIVE_UPDATE.zip",
+  "assetApiUrl": "https://api.github.com/repos/alexmilitaryvak-ux/rus-config-donetsk-updates/releases/assets/430411702",
+  "sha256": "A4C776550D68755AA697DFE689689BCF23AA746EE725BA42DBFCBB5BBFF38DCE"
 }
