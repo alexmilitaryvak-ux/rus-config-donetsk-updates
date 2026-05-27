@@ -1,21 +1,21 @@
 {
-  "version": "1.19",
-  "appVersion": "1.19",
-  "displayVersion": "Version 1.19",
-  "title": "RUS Config Donetsk Version 1.19",
-  "package": "RUS_Config_Donetsk_1.19_CUMULATIVE_UPDATE.zip",
-  "date": "2026-05-26",
+  "version": "1.20",
+  "appVersion": "1.20",
+  "displayVersion": "Version 1.20",
+  "title": "RUS Config Donetsk Version 1.20",
+  "package": "RUS_Config_Donetsk_1.20_CUMULATIVE_UPDATE.zip",
+  "date": "2026-05-27",
   "cumulative": true,
   "notes": [
-    "Накопительное обновление: включает все функции прошлых публичных обновлений, чтобы пользователи могли обновляться с любой старой версии без пропусков вкладок.",
-    "Включены вкладки и функции Управы/ELRS/G13/Готовые DUMP/Offline прошивки/Hold режимы/PID мастер BF и другие правки полной базы 1.17.",
-    "Добавлен Конструктор Resource: чтение resource и serial с полетного контроллера без перезагрузки подключения, UART, скорости, SmartAudio VTX и IRC Tramp VTX.",
-    "В Offline прошивках добавлено скачивание прошивки с полетного контроллера в BIN и HEX.",
-    "Добавлена offline-прошивка RC405ICM42688 (Оптика), Betaflight 4.4.2 / MSP API 1.45.",
-    "Во вкладке Hold режимы статус готовности теперь зеленый, а Не готово отображается красным.",
-    "Локальная авторизация, лицензия, токены и пользовательские файлы не входят в пакет и не должны перетираться."
+    "Накопительное обновление: включает все функции 1.19 и предыдущих публичных обновлений, чтобы пользователи обновлялись без пропусков вкладок.",
+    "Добавлен пакет offline-прошивок TBF v8.2 и инструкция TBF version 8.2.",
+    "Обновлен готовый DUMP для ПВХ-1: TBF8 F405 V1 (Красный) 4ant EOU, Управа FF9624R 4ant.",
+    "В Offline прошивках добавлено стирание прошивки с FC в DFU, проверка защиты от чтения и попытка отключения защиты.",
+    "Доработаны скачивание BIN/HEX с полетного контроллера, загрузка локальной прошивки, Конструктор Resource и отображение UART/serial.",
+    "Вкладка Управа перенесена в рабочий блок подключенного дрона, добавлены команды RX WiFi и прошивка RX через FC с пояснениями по UART/скорости.",
+    "Локальная авторизация, лицензия, токены, update-source.json и пользовательские файлы не входят в пакет и не перетираются."
   ],
-  "packageUrl": "https://github.com/alexmilitaryvak-ux/rus-config-donetsk-updates/releases/download/rcd-1.19/RUS_Config_Donetsk_1.19_CUMULATIVE_UPDATE.zip",
-  "assetApiUrl": "https://api.github.com/repos/alexmilitaryvak-ux/rus-config-donetsk-updates/releases/assets/430411702",
-  "sha256": "A4C776550D68755AA697DFE689689BCF23AA746EE725BA42DBFCBB5BBFF38DCE"
+  "packageUrl": "https://github.com/alexmilitaryvak-ux/rus-config-donetsk-updates/releases/download/rcd-1.20/RUS_Config_Donetsk_1.20_CUMULATIVE_UPDATE.zip",
+  "assetApiUrl": "https://api.github.com/repos/alexmilitaryvak-ux/rus-config-donetsk-updates/releases/assets/431081031",
+  "sha256": "7D9502C0BE6749516795BF6E513CC21E96BF5B4B2ABAC99BEB3159F03B44ABC4"
 }
