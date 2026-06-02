@@ -1,23 +1,22 @@
 {
-  "version": "1.21",
-  "appVersion": "1.21",
-  "displayVersion": "Version 1.21",
-  "title": "RUS Config Donetsk Version 1.21",
-  "package": "RUS_Config_Donetsk_1.21_CUMULATIVE_UPDATE.zip",
-  "date": "2026-05-30",
+  "version": "1.22",
+  "appVersion": "1.22",
+  "displayVersion": "Version 1.22",
+  "title": "RUS Config Donetsk Version 1.22",
+  "package": "RUS_Config_Donetsk_1.22_CUMULATIVE_UPDATE.zip",
+  "date": "2026-06-02",
   "cumulative": true,
   "notes": [
-    "Выпущено обновление с новыми offline-прошивками и готовыми DUMP.",
-    "В Offline прошивки добавлены SPEEDYBEEF405V4 (Зеленый) Судный День и HAKRCF405V2 (Оранжевый) Судный День.",
-    "В Готовые DUMP добавлен штатный DUMP ПВХ-1 для SPEEDYBEEF405V4 (Зеленый) EOU Судный День, обновлен TBF8 F405 V1 (Красный) 4ant EOU.",
-    "PID мастер доработан под общие 10 и 13 дюймов: добавлены рабочие подсказки поведения, иллюстрации и осторожное управление I-term.",
-    "Для новых клиентов работает умное обновление: если база 1.20 уже установлена, скачивается только маленький патч 1.21.",
-    "Для пользователей, которые пропустили старые обновления, оставлен полный накопительный пакет 1.21.",
+    "Выпущено обновление с новой offline-прошивкой для ПВХ-1.",
+    "В Offline прошивки добавлена HAKRCF405V2 (серый) EOU.",
+    "Файл прошивки добавлен как BIN 1 MB для STM32F405.",
+    "Для пользователей с версией 1.21 скачивается только маленький патч 1.22.",
+    "Для пользователей, которые пропустили обновления, сохранена цепочка 1.20 + 1.21 + 1.22.",
     "Локальная авторизация, лицензия, токены, update-source.json и пользовательские DUMP не входят в патч и не перетираются."
   ],
-  "packageUrl": "https://github.com/alexmilitaryvak-ux/rus-config-donetsk-updates/releases/download/rcd-1.21/RUS_Config_Donetsk_1.21_CUMULATIVE_UPDATE.zip",
-  "assetApiUrl": "https://api.github.com/repos/alexmilitaryvak-ux/rus-config-donetsk-updates/releases/assets/433655123",
-  "sha256": "365E0D8C27F9972267BFAE0D0B1DEFC77686A093B81E506787929AD5CEC018B9",
+  "packageUrl": "https://github.com/alexmilitaryvak-ux/rus-config-donetsk-updates/releases/download/rcd-1.22/RUS_Config_Donetsk_1.22_CUMULATIVE_UPDATE.zip",
+  "assetApiUrl": "https://api.github.com/repos/alexmilitaryvak-ux/rus-config-donetsk-updates/releases/assets/436259865",
+  "sha256": "16FB42CA91E82179C8DA7755B55A62EECFA82D3DF367B41EDCD1129DA55891AD",
   "packages": [
     {
       "version": "1.20",
@@ -34,6 +33,28 @@
       "packageUrl": "https://github.com/alexmilitaryvak-ux/rus-config-donetsk-updates/releases/download/rcd-1.21/RUS_Config_Donetsk_1.21_PATCH_UPDATE.zip",
       "assetApiUrl": "https://api.github.com/repos/alexmilitaryvak-ux/rus-config-donetsk-updates/releases/assets/433655122",
       "sha256": "EA54F8E07CADD2FF58EA10808173BC2DC828BF3323B551503EDD36E11ECA358F"
+    },
+    {
+      "version": "1.22",
+      "name": "Патч 1.22: HAKRCF405V2 (серый) EOU",
+      "package": "RUS_Config_Donetsk_1.22_PATCH_UPDATE.zip",
+      "packageUrl": "https://github.com/alexmilitaryvak-ux/rus-config-donetsk-updates/releases/download/rcd-1.22/RUS_Config_Donetsk_1.22_PATCH_UPDATE.zip",
+      "assetApiUrl": "https://api.github.com/repos/alexmilitaryvak-ux/rus-config-donetsk-updates/releases/assets/436259866",
+      "sha256": "009875553D0C7207B33BB15EEC5261F327B99747F8F0712F8B4B0764F05B98B6",
+      "files": [
+        {
+          "path": "package.json",
+          "sha256": "890CFC76D13AAC40DC83DF13CD197D218A0FC19B70ECFFF08EC113268B580CD9"
+        },
+        {
+          "path": "js/rus-config-donetsk-vtx-tables.js",
+          "sha256": "814ABCB7157D40BFA298D576DCA0476AF781DD1F35C99CB62B1E1AC0C7A64955"
+        },
+        {
+          "path": "offline-firmware/HAKRCF405V2_gray_eou/fw.bin",
+          "sha256": "78C8E1E22C7065541E1A23E87A25DBB7384C3A7B3CC4C611CBD9D4D67185CD5E"
+        }
+      ]
     }
   ]
 }
