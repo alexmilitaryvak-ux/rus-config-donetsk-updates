@@ -1,22 +1,21 @@
 {
-  "version": "1.22",
-  "appVersion": "1.22",
-  "displayVersion": "Version 1.22",
-  "title": "RUS Config Donetsk Version 1.22",
-  "package": "RUS_Config_Donetsk_1.22_CUMULATIVE_UPDATE.zip",
+  "version": "1.23",
+  "appVersion": "1.23",
+  "displayVersion": "Version 1.23",
+  "title": "RUS Config Donetsk Version 1.23",
+  "package": "RUS_Config_Donetsk_1.23_CUMULATIVE_UPDATE.zip",
   "date": "2026-06-02",
   "cumulative": true,
   "notes": [
-    "Выпущено обновление с новой offline-прошивкой для ПВХ-1.",
-    "В Offline прошивки добавлена HAKRCF405V2 (серый) EOU.",
-    "Файл прошивки добавлен как BIN 1 MB для STM32F405.",
-    "Для пользователей с версией 1.21 скачивается только маленький патч 1.22.",
-    "Для пользователей, которые пропустили обновления, сохранена цепочка 1.20 + 1.21 + 1.22.",
+    "Заменена offline-прошивка HAKRCF405V2 (серый) EOU.",
+    "Пункт во вкладке Прошивки Offline остается тем же: HAKRCF405V2 (серый) EOU.",
+    "Для пользователей с версией 1.22 скачивается только маленький патч 1.23.",
+    "Для пользователей, которые пропустили обновления, сохранена цепочка 1.20 + 1.21 + 1.22 + 1.23.",
     "Локальная авторизация, лицензия, токены, update-source.json и пользовательские DUMP не входят в патч и не перетираются."
   ],
-  "packageUrl": "https://github.com/alexmilitaryvak-ux/rus-config-donetsk-updates/releases/download/rcd-1.22/RUS_Config_Donetsk_1.22_CUMULATIVE_UPDATE.zip",
-  "assetApiUrl": "https://api.github.com/repos/alexmilitaryvak-ux/rus-config-donetsk-updates/releases/assets/436259865",
-  "sha256": "16FB42CA91E82179C8DA7755B55A62EECFA82D3DF367B41EDCD1129DA55891AD",
+  "packageUrl": "https://github.com/alexmilitaryvak-ux/rus-config-donetsk-updates/releases/download/rcd-1.23/RUS_Config_Donetsk_1.23_CUMULATIVE_UPDATE.zip",
+  "assetApiUrl": "https://api.github.com/repos/alexmilitaryvak-ux/rus-config-donetsk-updates/releases/assets/436332068",
+  "sha256": "1943906FB9ED5332D4CC756D312DE7669EF058E218062545006CCB25D69A6BC3",
   "packages": [
     {
       "version": "1.20",
@@ -53,6 +52,24 @@
         {
           "path": "offline-firmware/HAKRCF405V2_gray_eou/fw.bin",
           "sha256": "78C8E1E22C7065541E1A23E87A25DBB7384C3A7B3CC4C611CBD9D4D67185CD5E"
+        }
+      ]
+    },
+    {
+      "version": "1.23",
+      "name": "Патч 1.23: замена HAKRCF405V2 (серый) EOU",
+      "package": "RUS_Config_Donetsk_1.23_PATCH_UPDATE.zip",
+      "packageUrl": "https://github.com/alexmilitaryvak-ux/rus-config-donetsk-updates/releases/download/rcd-1.23/RUS_Config_Donetsk_1.23_PATCH_UPDATE.zip",
+      "assetApiUrl": "https://api.github.com/repos/alexmilitaryvak-ux/rus-config-donetsk-updates/releases/assets/436332067",
+      "sha256": "5C25D921DFB2F9C9A3A0B586F1BDE612C9214A2971F2125559ED06892F385087",
+      "files": [
+        {
+          "path": "package.json",
+          "sha256": "803101A2C5D1CF928565E3E482E56986D8598BE40C5F676C03C1E7A3BA6EC532"
+        },
+        {
+          "path": "offline-firmware/HAKRCF405V2_gray_eou/fw.bin",
+          "sha256": "24D273180B6EFF64197D8B0F25BFBFE4B1036A86AE2577F5AF9CB22A4AE45A48"
         }
       ]
     }
