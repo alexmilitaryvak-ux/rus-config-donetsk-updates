@@ -1,21 +1,21 @@
 {
-  "version": "1.25",
-  "appVersion": "1.25",
-  "displayVersion": "Version 1.25",
-  "title": "RUS Config Donetsk Version 1.25",
-  "package": "RUS_Config_Donetsk_1.25_CUMULATIVE_UPDATE.zip",
+  "version": "1.26",
+  "appVersion": "1.26",
+  "displayVersion": "Version 1.26",
+  "title": "RUS Config Donetsk Version 1.26",
+  "package": "RUS_Config_Donetsk_1.26_CUMULATIVE_UPDATE.zip",
   "date": "2026-06-03",
   "cumulative": true,
   "notes": [
     "Заменен файл offline-прошивки TBF v8 F405 V01 ПВХ-1Т (Серый) 610002.",
     "Название пункта во вкладке Прошивки Offline оставлено без изменений.",
-    "Для пользователей с версией 1.24 скачивается только маленький патч 1.25.",
-    "Для пользователей, которые пропустили обновления, сохранена цепочка 1.20 + 1.21 + 1.22 + 1.23 + 1.24 + 1.25.",
+    "Для пользователей с версией 1.25 скачивается только маленький патч 1.26.",
+    "Для пользователей, которые пропустили обновления, сохранена цепочка 1.20 + 1.21 + 1.22 + 1.23 + 1.24 + 1.25 + 1.26.",
     "Локальная авторизация, лицензия, токены, update-source.json и пользовательские DUMP не входят в патч и не перетираются."
   ],
-  "packageUrl": "https://github.com/alexmilitaryvak-ux/rus-config-donetsk-updates/releases/download/rcd-1.25/RUS_Config_Donetsk_1.25_CUMULATIVE_UPDATE.zip",
-  "assetApiUrl": "https://api.github.com/repos/alexmilitaryvak-ux/rus-config-donetsk-updates/releases/assets/437036977",
-  "sha256": "5A17673CDFA652682E347BECB81CD3F1D262735FC43AAEDF980ACAB813DFD8BA",
+  "packageUrl": "https://github.com/alexmilitaryvak-ux/rus-config-donetsk-updates/releases/download/rcd-1.26/RUS_Config_Donetsk_1.26_CUMULATIVE_UPDATE.zip",
+  "assetApiUrl": "https://api.github.com/repos/alexmilitaryvak-ux/rus-config-donetsk-updates/releases/assets/437105764",
+  "sha256": "469E178D6E6AA1038BDD6731B69F68BD5BE55A5D026686FD9130A8FC1C28DAB7",
   "packages": [
     {
       "version": "1.20",
@@ -110,6 +110,24 @@
         {
           "path": "offline-firmware/TBF8_F405_V01_PVH1T_gray_610002/fw.bin",
           "sha256": "6569CACABB16C0876F8E388AD93E19899A2E3AEF1684B60D8B0286FCC2882E47"
+        }
+      ]
+    },
+    {
+      "version": "1.26",
+      "name": "Патч 1.26: замена файла TBF v8 F405 V01 ПВХ-1Т (Серый) 610002",
+      "package": "RUS_Config_Donetsk_1.26_PATCH_UPDATE.zip",
+      "packageUrl": "https://github.com/alexmilitaryvak-ux/rus-config-donetsk-updates/releases/download/rcd-1.26/RUS_Config_Donetsk_1.26_PATCH_UPDATE.zip",
+      "assetApiUrl": "https://api.github.com/repos/alexmilitaryvak-ux/rus-config-donetsk-updates/releases/assets/437105762",
+      "sha256": "9BE00B357A741089F723C036AE290CDBD5DC6E8AB0666763408BC583A696E469",
+      "files": [
+        {
+          "path": "package.json",
+          "sha256": "3954A7719DB8253AAF51F08C9351DDEE75141B8068896925350D8795EE5D8EA4"
+        },
+        {
+          "path": "offline-firmware/TBF8_F405_V01_PVH1T_gray_610002/fw.bin",
+          "sha256": "71A09E7281F25664214200049D17DC91A16EBC6994F0037E688802BD12DAD66E"
         }
       ]
     }
