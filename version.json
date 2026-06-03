@@ -1,21 +1,21 @@
 {
-  "version": "1.23",
-  "appVersion": "1.23",
-  "displayVersion": "Version 1.23",
-  "title": "RUS Config Donetsk Version 1.23",
-  "package": "RUS_Config_Donetsk_1.23_CUMULATIVE_UPDATE.zip",
-  "date": "2026-06-02",
+  "version": "1.24",
+  "appVersion": "1.24",
+  "displayVersion": "Version 1.24",
+  "title": "RUS Config Donetsk Version 1.24",
+  "package": "RUS_Config_Donetsk_1.24_CUMULATIVE_UPDATE.zip",
+  "date": "2026-06-03",
   "cumulative": true,
   "notes": [
-    "Заменена offline-прошивка HAKRCF405V2 (серый) EOU.",
-    "Пункт во вкладке Прошивки Offline остается тем же: HAKRCF405V2 (серый) EOU.",
-    "Для пользователей с версией 1.22 скачивается только маленький патч 1.23.",
-    "Для пользователей, которые пропустили обновления, сохранена цепочка 1.20 + 1.21 + 1.22 + 1.23.",
+    "Во вкладку Прошивки Offline добавлена новая прошивка TBF v8 F405 V01 ПВХ-1Т (Серый) 610002.",
+    "Файл прошивки добавлен как BIN 1 MB для STM32F405.",
+    "Для пользователей с версией 1.23 скачивается только маленький патч 1.24.",
+    "Для пользователей, которые пропустили обновления, сохранена цепочка 1.20 + 1.21 + 1.22 + 1.23 + 1.24.",
     "Локальная авторизация, лицензия, токены, update-source.json и пользовательские DUMP не входят в патч и не перетираются."
   ],
-  "packageUrl": "https://github.com/alexmilitaryvak-ux/rus-config-donetsk-updates/releases/download/rcd-1.23/RUS_Config_Donetsk_1.23_CUMULATIVE_UPDATE.zip",
-  "assetApiUrl": "https://api.github.com/repos/alexmilitaryvak-ux/rus-config-donetsk-updates/releases/assets/436332068",
-  "sha256": "1943906FB9ED5332D4CC756D312DE7669EF058E218062545006CCB25D69A6BC3",
+  "packageUrl": "https://github.com/alexmilitaryvak-ux/rus-config-donetsk-updates/releases/download/rcd-1.24/RUS_Config_Donetsk_1.24_CUMULATIVE_UPDATE.zip",
+  "assetApiUrl": "https://api.github.com/repos/alexmilitaryvak-ux/rus-config-donetsk-updates/releases/assets/437016413",
+  "sha256": "5246FA7B5C55E8ADA96CC82C4329306C1CFB924F234A3F69580C37CE77781514",
   "packages": [
     {
       "version": "1.20",
@@ -70,6 +70,28 @@
         {
           "path": "offline-firmware/HAKRCF405V2_gray_eou/fw.bin",
           "sha256": "24D273180B6EFF64197D8B0F25BFBFE4B1036A86AE2577F5AF9CB22A4AE45A48"
+        }
+      ]
+    },
+    {
+      "version": "1.24",
+      "name": "Патч 1.24: TBF v8 F405 V01 ПВХ-1Т (Серый) 610002",
+      "package": "RUS_Config_Donetsk_1.24_PATCH_UPDATE.zip",
+      "packageUrl": "https://github.com/alexmilitaryvak-ux/rus-config-donetsk-updates/releases/download/rcd-1.24/RUS_Config_Donetsk_1.24_PATCH_UPDATE.zip",
+      "assetApiUrl": "https://api.github.com/repos/alexmilitaryvak-ux/rus-config-donetsk-updates/releases/assets/437016416",
+      "sha256": "F735BB97FC67A04240FC2EEA9EB83AF645F7D7CB932952B0FBD76DF827625A5C",
+      "files": [
+        {
+          "path": "package.json",
+          "sha256": "B475CC3A0097C7185E395EB3C02E0BC4DEFAF4E4D83D05D26ABDC54E5A37E15B"
+        },
+        {
+          "path": "js/rus-config-donetsk-vtx-tables.js",
+          "sha256": "7C2F090BA6F95C3BF44B9B0AED1160C23CBF61DB42481A610F8A1105EBE3E580"
+        },
+        {
+          "path": "offline-firmware/TBF8_F405_V01_PVH1T_gray_610002/fw.bin",
+          "sha256": "2E12F8963F06138E7031F78B8A1F82561C482852BD2187EE2DE8490B3426C8F3"
         }
       ]
     }
