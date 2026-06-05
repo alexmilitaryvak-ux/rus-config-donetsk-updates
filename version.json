@@ -1,21 +1,22 @@
 {
-  "version": "1.27",
-  "appVersion": "1.27",
-  "displayVersion": "Version 1.27",
-  "title": "RUS Config Donetsk Version 1.27",
-  "package": "RUS_Config_Donetsk_1.27_CUMULATIVE_UPDATE.zip",
-  "date": "2026-06-03",
+  "version": "1.28",
+  "appVersion": "1.28",
+  "displayVersion": "Version 1.28",
+  "title": "RUS Config Donetsk Version 1.28",
+  "package": "RUS_Config_Donetsk_1.28_CUMULATIVE_UPDATE.zip",
+  "date": "2026-06-05",
   "cumulative": true,
   "notes": [
-    "Заменен файл offline-прошивки HAKRCF405V2 (серый) EOU.",
-    "Название пункта во вкладке Прошивки Offline оставлено без изменений.",
-    "Для пользователей с версией 1.26 скачивается только маленький патч 1.27.",
-    "Для пользователей, которые пропустили обновления, сохранена цепочка 1.20 + 1.21 + 1.22 + 1.23 + 1.24 + 1.25 + 1.26 + 1.27.",
+    "Во вкладку ESC Configurator добавлена кнопка Отключить connect.",
+    "Кнопка освобождает COM-порт основного конфигуратора и выключает автоподключение, чтобы ESC Configurator мог подключиться к дрону.",
+    "Добавлено статусное сообщение во вкладке ESC Configurator: видно, когда основной connect отключен.",
+    "Для пользователей с версией 1.27 скачивается только маленький патч 1.28.",
+    "Для пользователей, которые пропустили обновления, сохранена цепочка патчей и cumulative-архив со всеми предыдущими функциями.",
     "Локальная авторизация, лицензия, токены, update-source.json и пользовательские DUMP не входят в патч и не перетираются."
   ],
-  "packageUrl": "https://github.com/alexmilitaryvak-ux/rus-config-donetsk-updates/releases/download/rcd-1.27/RUS_Config_Donetsk_1.27_CUMULATIVE_UPDATE.zip",
-  "assetApiUrl": "https://api.github.com/repos/alexmilitaryvak-ux/rus-config-donetsk-updates/releases/assets/437334684",
-  "sha256": "2F1E7AC11DEB939DD32983110C08DCDEB3B0AEF5CFD81A3A2CA67A1B57732A35",
+  "packageUrl": "https://github.com/alexmilitaryvak-ux/rus-config-donetsk-updates/releases/download/rcd-1.28/RUS_Config_Donetsk_1.28_CUMULATIVE_UPDATE.zip",
+  "assetApiUrl": "https://api.github.com/repos/alexmilitaryvak-ux/rus-config-donetsk-updates/releases/assets/439417189",
+  "sha256": "B69F9079D44A57FC171DB257F98F7888C114A913C2B2180A32DA523297030574",
   "packages": [
     {
       "version": "1.20",
@@ -146,6 +147,28 @@
         {
           "path": "offline-firmware/HAKRCF405V2_gray_eou/fw.bin",
           "sha256": "995A2749849CFAC1081EFFC5E61CBDC5CE8720722A8703AA846D62692AA6AE5D"
+        }
+      ]
+    },
+    {
+      "version": "1.28",
+      "name": "Патч 1.28: освобождение COM-порта для ESC Configurator",
+      "package": "RUS_Config_Donetsk_1.28_PATCH_UPDATE.zip",
+      "packageUrl": "https://github.com/alexmilitaryvak-ux/rus-config-donetsk-updates/releases/download/rcd-1.28/RUS_Config_Donetsk_1.28_PATCH_UPDATE.zip",
+      "assetApiUrl": "https://api.github.com/repos/alexmilitaryvak-ux/rus-config-donetsk-updates/releases/assets/439417191",
+      "sha256": "C264C95D345471955D56185A86F1088D62FA22402898FD0D93769D6724373DA5",
+      "files": [
+        {
+          "path": "package.json",
+          "sha256": "952456BCD2414390FF82FEF34A0A6F22EFB448D7AAF26C0881C40595E0C01E67"
+        },
+        {
+          "path": "js/rus-config-donetsk-vtx-tables.js",
+          "sha256": "709EFF6C387CE9649AC3716ECEB7FF1DEBF5DD09944ED43B8A4BC5DCC220A307"
+        },
+        {
+          "path": "css/rus-config-donetsk.css",
+          "sha256": "CD014031153A6F2D138EF94B7A6400DC3133A0499EBDF2E0E128406F040D946E"
         }
       ]
     }
