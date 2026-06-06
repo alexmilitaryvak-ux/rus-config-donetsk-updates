@@ -1,22 +1,21 @@
 {
-  "version": "1.28",
-  "appVersion": "1.28",
-  "displayVersion": "Version 1.28",
-  "title": "RUS Config Donetsk Version 1.28",
-  "package": "RUS_Config_Donetsk_1.28_CUMULATIVE_UPDATE.zip",
-  "date": "2026-06-05",
+  "version": "1.29",
+  "appVersion": "1.29",
+  "displayVersion": "Version 1.29",
+  "title": "RUS Config Donetsk Version 1.29",
+  "package": "RUS_Config_Donetsk_1.29_CUMULATIVE_UPDATE.zip",
+  "date": "2026-06-06",
   "cumulative": true,
   "notes": [
-    "Во вкладку ESC Configurator добавлена кнопка Отключить connect.",
-    "Кнопка освобождает COM-порт основного конфигуратора и выключает автоподключение, чтобы ESC Configurator мог подключиться к дрону.",
-    "Добавлено статусное сообщение во вкладке ESC Configurator: видно, когда основной connect отключен.",
-    "Для пользователей с версией 1.27 скачивается только маленький патч 1.28.",
+    "Заменён файл offline-прошивки для пункта TBF v8 F405 V01 ПВХ-1Т (Серый) 610002.",
+    "Название пункта во вкладке Прошивки Offline оставлено прежним.",
+    "Для пользователей с версией 1.28 скачивается только маленький патч 1.29.",
     "Для пользователей, которые пропустили обновления, сохранена цепочка патчей и cumulative-архив со всеми предыдущими функциями.",
     "Локальная авторизация, лицензия, токены, update-source.json и пользовательские DUMP не входят в патч и не перетираются."
   ],
-  "packageUrl": "https://github.com/alexmilitaryvak-ux/rus-config-donetsk-updates/releases/download/rcd-1.28/RUS_Config_Donetsk_1.28_CUMULATIVE_UPDATE.zip",
-  "assetApiUrl": "https://api.github.com/repos/alexmilitaryvak-ux/rus-config-donetsk-updates/releases/assets/439417189",
-  "sha256": "B69F9079D44A57FC171DB257F98F7888C114A913C2B2180A32DA523297030574",
+  "packageUrl": "https://github.com/alexmilitaryvak-ux/rus-config-donetsk-updates/releases/download/rcd-1.29/RUS_Config_Donetsk_1.29_CUMULATIVE_UPDATE.zip",
+  "assetApiUrl": "https://api.github.com/repos/alexmilitaryvak-ux/rus-config-donetsk-updates/releases/assets/439973966",
+  "sha256": "0E900128E9928FE8E258C702FF1FF6DCCA1C00634590E00A71C04AA292528D48",
   "packages": [
     {
       "version": "1.20",
@@ -169,6 +168,24 @@
         {
           "path": "css/rus-config-donetsk.css",
           "sha256": "CD014031153A6F2D138EF94B7A6400DC3133A0499EBDF2E0E128406F040D946E"
+        }
+      ]
+    },
+    {
+      "version": "1.29",
+      "name": "Патч 1.29: замена прошивки ПВХ-1Т (серый) 610002",
+      "package": "RUS_Config_Donetsk_1.29_PATCH_UPDATE.zip",
+      "packageUrl": "https://github.com/alexmilitaryvak-ux/rus-config-donetsk-updates/releases/download/rcd-1.29/RUS_Config_Donetsk_1.29_PATCH_UPDATE.zip",
+      "assetApiUrl": "https://api.github.com/repos/alexmilitaryvak-ux/rus-config-donetsk-updates/releases/assets/439973965",
+      "sha256": "536176AF8042C663C73E1347073C6C01980C04C23F9F0EA8E13198DE624B79F7",
+      "files": [
+        {
+          "path": "package.json",
+          "sha256": "5FB4D1A08A815B1518FF5C546DF7FB8DB0BCFEE1FFAAD680DAE73D5A74442115"
+        },
+        {
+          "path": "offline-firmware/TBF8_F405_V01_PVH1T_gray_610002/fw.bin",
+          "sha256": "B5389E514F6439FA8189C364D665102FAF1C185E70888AF6BA167CB4A35AAEE9"
         }
       ]
     }
