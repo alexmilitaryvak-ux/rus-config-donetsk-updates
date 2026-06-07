@@ -1,21 +1,23 @@
 {
-  "version": "1.29",
-  "appVersion": "1.29",
-  "displayVersion": "Version 1.29",
-  "title": "RUS Config Donetsk Version 1.29",
-  "package": "RUS_Config_Donetsk_1.29_CUMULATIVE_UPDATE.zip",
+  "version": "1.30",
+  "appVersion": "1.30",
+  "displayVersion": "Version 1.30",
+  "title": "RUS Config Donetsk Version 1.30",
+  "package": "RUS_Config_Donetsk_1.30_CUMULATIVE_UPDATE.zip",
   "date": "2026-06-06",
   "cumulative": true,
   "notes": [
-    "Заменён файл offline-прошивки для пункта TBF v8 F405 V01 ПВХ-1Т (Серый) 610002.",
-    "Название пункта во вкладке Прошивки Offline оставлено прежним.",
-    "Для пользователей с версией 1.28 скачивается только маленький патч 1.29.",
-    "Для пользователей, которые пропустили обновления, сохранена цепочка патчей и cumulative-архив со всеми предыдущими функциями.",
+    "Во вкладку OSD добавлены быстрые кнопки: Центрировать прицел и Имя пилота.",
+    "Кнопка Центрировать прицел включает элемент CROSSHAIRS и ставит его в центр OSD.",
+    "Кнопка Имя пилота открывает поле редактирования, сохраняет имя в FC и ставит его сверху по центру OSD.",
+    "Обновлен файл offline-прошивки для TBF v8 F405 V01 ПВХ-1Т (Серый) 610002.",
+    "Для пользователей с версией 1.29 скачивается только маленький патч 1.30.",
+    "Для пользователей, которые пропустили обновления, сохранена цепочка патчей и cumulative-архив со всеми функциями.",
     "Локальная авторизация, лицензия, токены, update-source.json и пользовательские DUMP не входят в патч и не перетираются."
   ],
-  "packageUrl": "https://github.com/alexmilitaryvak-ux/rus-config-donetsk-updates/releases/download/rcd-1.29/RUS_Config_Donetsk_1.29_CUMULATIVE_UPDATE.zip",
-  "assetApiUrl": "https://api.github.com/repos/alexmilitaryvak-ux/rus-config-donetsk-updates/releases/assets/439973966",
-  "sha256": "0E900128E9928FE8E258C702FF1FF6DCCA1C00634590E00A71C04AA292528D48",
+  "packageUrl": "https://github.com/alexmilitaryvak-ux/rus-config-donetsk-updates/releases/download/rcd-1.30/RUS_Config_Donetsk_1.30_CUMULATIVE_UPDATE.zip",
+  "assetApiUrl": "https://api.github.com/repos/alexmilitaryvak-ux/rus-config-donetsk-updates/releases/assets/440717511",
+  "sha256": "27B2ADA5A1FAD65F1737BFF70FDD5F55FE9AA54D0495497AC3DA6AB23CDABFE4",
   "packages": [
     {
       "version": "1.20",
@@ -186,6 +188,36 @@
         {
           "path": "offline-firmware/TBF8_F405_V01_PVH1T_gray_610002/fw.bin",
           "sha256": "B5389E514F6439FA8189C364D665102FAF1C185E70888AF6BA167CB4A35AAEE9"
+        }
+      ]
+    },
+    {
+      "version": "1.30",
+      "name": "Патч 1.30: быстрые кнопки OSD и свежая прошивка ПВХ-1Т",
+      "package": "RUS_Config_Donetsk_1.30_PATCH_UPDATE.zip",
+      "packageUrl": "https://github.com/alexmilitaryvak-ux/rus-config-donetsk-updates/releases/download/rcd-1.30/RUS_Config_Donetsk_1.30_PATCH_UPDATE.zip",
+      "assetApiUrl": "https://api.github.com/repos/alexmilitaryvak-ux/rus-config-donetsk-updates/releases/assets/440717512",
+      "sha256": "58293D76A1953E519A6B62433E083EE67E08D8EA632355BFB2DBC0670DA3936D",
+      "files": [
+        {
+          "path": "package.json",
+          "sha256": "0D980A122E66668BF28F9819086BBF3EEAD713C44C5B03CF02CE0A1A610F0807"
+        },
+        {
+          "path": "tabs/osd.html",
+          "sha256": "A4C387959B833D9D47E6633A0705B2CFD651DE970458694194F959956952C3B3"
+        },
+        {
+          "path": "js/main.js",
+          "sha256": "9E90EE054061125956F1AD7C01AC475F54A2A0A224B134DAAAE041A777F8FCE8"
+        },
+        {
+          "path": "css/rus-config-donetsk.css",
+          "sha256": "85D0CB39DD98EA89410B84B766479B36C8180AF399A73F957FD41C2EDA86109E"
+        },
+        {
+          "path": "offline-firmware/TBF8_F405_V01_PVH1T_gray_610002/fw.bin",
+          "sha256": "6073DF2ACF5D0B8166C9D89633867448B407FE8D16D3DF7148134D959021BB24"
         }
       ]
     }
