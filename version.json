@@ -1,22 +1,23 @@
 {
-  "version": "1.31",
-  "appVersion": "1.31",
-  "displayVersion": "Version 1.31",
-  "title": "RUS Config Donetsk Version 1.31",
-  "package": "RUS_Config_Donetsk_1.31_CUMULATIVE_UPDATE.zip",
+  "version": "1.32",
+  "appVersion": "1.32",
+  "displayVersion": "version AI 0.1",
+  "aiVersion": "0.1",
+  "title": "RUS Config Donetsk version AI 0.1",
+  "package": "RUS_Config_Donetsk_1.32_CUMULATIVE_UPDATE.zip",
   "date": "2026-06-08",
   "cumulative": true,
   "notes": [
-    "Во вкладке OSD доработан блок Имя пилота.",
-    "Поле Имя пилота запоминает последнее примененное значение и предлагает его при работе с другим дроном.",
-    "Имя пилота на OSD ставится на одну клетку ниже верхней строки, сохраняя центрирование.",
-    "Для пользователей с версией 1.30 скачивается только маленький патч 1.31.",
-    "Для пользователей, которые пропустили обновления, сохранена цепочка патчей и cumulative-архив со всеми функциями.",
-    "Локальная авторизация, лицензия, токены, update-source.json и пользовательские DUMP не входят в патч и не перетираются."
+    "Запущена новая линейка отображаемых версий: version AI 0.1.",
+    "Техническая версия обновления: 1.32, чтобы старый апдейтер корректно сравнивал и устанавливал пакет.",
+    "Добавлен и доработан ассистент RUS Config: чат, плавная AI-кнопка, анализ VTX/Bands, AUX и режимов.",
+    "Ассистент лучше понимает естественные команды, объясняет ошибки и не отвечает как указатель вместо помощника.",
+    "Обновлены offline-прошивки: GENERICF4V2 G13 зеленый, HAKRCF405V2 оранжевый, HAKRCF405V2 серый EOU, TBF v8 F405 V01 ПВХ-1Т серый 610002.",
+    "Сохранены последние правки OSD, интерфейса и отображения версии."
   ],
-  "packageUrl": "https://github.com/alexmilitaryvak-ux/rus-config-donetsk-updates/releases/download/rcd-1.31/RUS_Config_Donetsk_1.31_CUMULATIVE_UPDATE.zip",
-  "assetApiUrl": "https://api.github.com/repos/alexmilitaryvak-ux/rus-config-donetsk-updates/releases/assets/441539890",
-  "sha256": "7C86EA56AC071CADCB0A5EA9B1CA13CE78BB5EC21484603B2EB57447E6D6024F",
+  "packageUrl": "https://github.com/alexmilitaryvak-ux/rus-config-donetsk-updates/releases/download/rcd-1.32/RUS_Config_Donetsk_1.32_CUMULATIVE_UPDATE.zip",
+  "assetApiUrl": "https://api.github.com/repos/alexmilitaryvak-ux/rus-config-donetsk-updates/releases/assets/442109106",
+  "sha256": "CB2D834F018C7E68A5E6CEF8FC9F2594EB2A1FE7CAE5C20B9DE78E99D484F15A",
   "packages": [
     {
       "version": "1.20",
@@ -239,6 +240,53 @@
         {
           "path": "js/main.js",
           "sha256": "8CE6B19A461695D853AA74FE7BCADBF2EF9FFA36C4305F6B23CC2EA46AD9ECBA"
+        }
+      ]
+    },
+    {
+      "version": "1.32",
+      "displayVersion": "version AI 0.1",
+      "name": "Патч version AI 0.1: ассистент и offline-прошивки",
+      "package": "RUS_Config_Donetsk_1.32_PATCH_UPDATE.zip",
+      "packageUrl": "https://github.com/alexmilitaryvak-ux/rus-config-donetsk-updates/releases/download/rcd-1.32/RUS_Config_Donetsk_1.32_PATCH_UPDATE.zip",
+      "assetApiUrl": "https://api.github.com/repos/alexmilitaryvak-ux/rus-config-donetsk-updates/releases/assets/442109105",
+      "sha256": "EFF3576407C4DB4687F39C547785AEA1EC50DF1A0FD78E075868283DC2962C20",
+      "files": [
+        {
+          "path": "package.json",
+          "sha256": "431FFBB8B08F1DE20447DF1F4F6E62A68AE8D77826393878F45D4F45C0F2D7AD"
+        },
+        {
+          "path": "common.js",
+          "sha256": "F47D78E9DE19FF689997037BAEE1B039DB0D1F91BF4BEB343456A8F9B517ABE1"
+        },
+        {
+          "path": "landing.js",
+          "sha256": "1BBFCC33FE9120A1BD9477435E8F01DBD37D79767EE0DEB7D5BFD2E8BE035618"
+        },
+        {
+          "path": "js/main.js",
+          "sha256": "52A8F64B7BB00585BF44E4CC9ADD5ED879408E5570605D3BF74FF4A14ECF1E63"
+        },
+        {
+          "path": "js/rus-config-donetsk-vtx-tables.js",
+          "sha256": "E5B82E2319DA9FA86F8AFDAF9E600963354E7FC242FEB390946E5E61AF5F63A7"
+        },
+        {
+          "path": "offline-firmware/GENERICF4V2_4.5.1_G13_green/fw.bin",
+          "sha256": "D4B4587224C5CCCCE887A81A51B49F876A460FAB4F2C7C6CC7E144DBEBD06750"
+        },
+        {
+          "path": "offline-firmware/HAKRCF405V2_4.5.1_orange/fw.bin",
+          "sha256": "66C7327094AA853C2D2E4CEAC0A4369CFDC591AFA7458F7481589C9C2C62C1A9"
+        },
+        {
+          "path": "offline-firmware/HAKRCF405V2_gray_eou/fw.bin",
+          "sha256": "3D6968591EBF37C44BE5E27F8A6DA49F763A49A392169C863FAD4EF9713B5570"
+        },
+        {
+          "path": "offline-firmware/TBF8_F405_V01_PVH1T_gray_610002/fw.bin",
+          "sha256": "0BAFD14B29318630C3F7B7EAFFC310D97CA5DFD771E6AD13E5A351FA98738159"
         }
       ]
     }
