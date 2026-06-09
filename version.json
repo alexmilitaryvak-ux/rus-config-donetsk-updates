@@ -1,260 +1,43 @@
 {
-  "version": "1.32",
-  "appVersion": "1.32",
-  "displayVersion": "version AI 0.1",
-  "aiVersion": "0.1",
-  "title": "RUS Config Donetsk version AI 0.1",
-  "package": "RUS_Config_Donetsk_1.32_CUMULATIVE_UPDATE.zip",
-  "date": "2026-06-08",
+  "version": "1.33",
+  "appVersion": "1.33",
+  "displayVersion": "version AI 0.2",
+  "aiVersion": "0.2",
+  "title": "RUS Config Donetsk version AI 0.2",
+  "package": "RUS_Config_Donetsk_1.33_CUMULATIVE_UPDATE.zip",
+  "date": "2026-06-09",
   "cumulative": true,
   "notes": [
-    "Запущена новая линейка отображаемых версий: version AI 0.1.",
-    "Техническая версия обновления: 1.32, чтобы старый апдейтер корректно сравнивал и устанавливал пакет.",
-    "Добавлен и доработан ассистент RUS Config: чат, плавная AI-кнопка, анализ VTX/Bands, AUX и режимов.",
-    "Ассистент лучше понимает естественные команды, объясняет ошибки и не отвечает как указатель вместо помощника.",
-    "Обновлены offline-прошивки: GENERICF4V2 G13 зеленый, HAKRCF405V2 оранжевый, HAKRCF405V2 серый EOU, TBF v8 F405 V01 ПВХ-1Т серый 610002.",
-    "Сохранены последние правки OSD, интерфейса и отображения версии."
+    "Глобальное накопительное обновление: устанавливает весь актуальный комплект приложения, а не отдельный патч.",
+    "В пакет включены новый ассистент RUS Config, новый интерфейс, все свежие вкладки, OSD-правки, offline-прошивки, tools и updater.",
+    "Ассистент получил режим “анализ → план → применить → проверить” для VTX/Bands: свежий dump, vtxtable/vtx, CLI-команды, save и повторная проверка.",
+    "Добавлена умная диагностика “почему не армится”: arming flags, RXLOSS, throttle, failsafe, gyro/GPS, receiver и понятные шаги исправления.",
+    "Добавлен мастер AUX и режимов: команды вроде “назначь Angle на AUX 3 верхнее положение” переводятся в правильные aux rules.",
+    "Добавлен локальный словарь Betaflight/БПЛА и понимание живых фраз с ошибками и неправильной раскладкой.",
+    "Добавлен режим “проверить дрон перед вылетом” с итогом готов/не готов и списком, что исправить.",
+    "Ответы ассистента оформлены карточками: статус, что найдено, что можно сделать, кнопки Проверить снова/Откатить.",
+    "Версия теперь отображается как version AI 0.2, техническая версия для updater: 1.33."
   ],
-  "packageUrl": "https://github.com/alexmilitaryvak-ux/rus-config-donetsk-updates/releases/download/rcd-1.32/RUS_Config_Donetsk_1.32_CUMULATIVE_UPDATE.zip",
-  "assetApiUrl": "https://api.github.com/repos/alexmilitaryvak-ux/rus-config-donetsk-updates/releases/assets/442109106",
-  "sha256": "CB2D834F018C7E68A5E6CEF8FC9F2594EB2A1FE7CAE5C20B9DE78E99D484F15A",
+  "packageUrl": "https://github.com/alexmilitaryvak-ux/rus-config-donetsk-updates/releases/download/rcd-1.33/RUS_Config_Donetsk_1.33_CUMULATIVE_UPDATE.zip",
+  "assetApiUrl": "https://api.github.com/repos/alexmilitaryvak-ux/rus-config-donetsk-updates/releases/assets/442458133",
+  "sha256": "83D2453B5523A57CE2BC57337670AEEF9BD62AF5E1AFD7EA2515F5C1EA5B94F8",
+  "size": 260373457,
+  "packageSize": 260373457,
   "packages": [
     {
-      "version": "1.20",
-      "name": "Базовый накопительный пакет 1.20",
-      "package": "RUS_Config_Donetsk_1.20_CUMULATIVE_UPDATE.zip",
-      "packageUrl": "https://github.com/alexmilitaryvak-ux/rus-config-donetsk-updates/releases/download/rcd-1.20/RUS_Config_Donetsk_1.20_CUMULATIVE_UPDATE.zip",
-      "assetApiUrl": "https://api.github.com/repos/alexmilitaryvak-ux/rus-config-donetsk-updates/releases/assets/431081031",
-      "sha256": "7D9502C0BE6749516795BF6E513CC21E96BF5B4B2ABAC99BEB3159F03B44ABC4"
-    },
-    {
-      "version": "1.21",
-      "name": "Патч 1.21: offline-прошивки, DUMP и PID мастер",
-      "package": "RUS_Config_Donetsk_1.21_PATCH_UPDATE.zip",
-      "packageUrl": "https://github.com/alexmilitaryvak-ux/rus-config-donetsk-updates/releases/download/rcd-1.21/RUS_Config_Donetsk_1.21_PATCH_UPDATE.zip",
-      "assetApiUrl": "https://api.github.com/repos/alexmilitaryvak-ux/rus-config-donetsk-updates/releases/assets/433655122",
-      "sha256": "EA54F8E07CADD2FF58EA10808173BC2DC828BF3323B551503EDD36E11ECA358F"
-    },
-    {
-      "version": "1.22",
-      "name": "Патч 1.22: HAKRCF405V2 (серый) EOU",
-      "package": "RUS_Config_Donetsk_1.22_PATCH_UPDATE.zip",
-      "packageUrl": "https://github.com/alexmilitaryvak-ux/rus-config-donetsk-updates/releases/download/rcd-1.22/RUS_Config_Donetsk_1.22_PATCH_UPDATE.zip",
-      "assetApiUrl": "https://api.github.com/repos/alexmilitaryvak-ux/rus-config-donetsk-updates/releases/assets/436259866",
-      "sha256": "009875553D0C7207B33BB15EEC5261F327B99747F8F0712F8B4B0764F05B98B6",
+      "version": "1.33",
+      "displayVersion": "version AI 0.2",
+      "name": "Глобальное обновление version AI 0.2: ассистент, интерфейс и все вкладки",
+      "cumulative": true,
+      "package": "RUS_Config_Donetsk_1.33_CUMULATIVE_UPDATE.zip",
+      "packageUrl": "https://github.com/alexmilitaryvak-ux/rus-config-donetsk-updates/releases/download/rcd-1.33/RUS_Config_Donetsk_1.33_CUMULATIVE_UPDATE.zip",
+      "assetApiUrl": "https://api.github.com/repos/alexmilitaryvak-ux/rus-config-donetsk-updates/releases/assets/442458133",
+      "sha256": "83D2453B5523A57CE2BC57337670AEEF9BD62AF5E1AFD7EA2515F5C1EA5B94F8",
+      "size": 260373457,
       "files": [
         {
           "path": "package.json",
-          "sha256": "890CFC76D13AAC40DC83DF13CD197D218A0FC19B70ECFFF08EC113268B580CD9"
-        },
-        {
-          "path": "js/rus-config-donetsk-vtx-tables.js",
-          "sha256": "814ABCB7157D40BFA298D576DCA0476AF781DD1F35C99CB62B1E1AC0C7A64955"
-        },
-        {
-          "path": "offline-firmware/HAKRCF405V2_gray_eou/fw.bin",
-          "sha256": "78C8E1E22C7065541E1A23E87A25DBB7384C3A7B3CC4C611CBD9D4D67185CD5E"
-        }
-      ]
-    },
-    {
-      "version": "1.23",
-      "name": "Патч 1.23: замена HAKRCF405V2 (серый) EOU",
-      "package": "RUS_Config_Donetsk_1.23_PATCH_UPDATE.zip",
-      "packageUrl": "https://github.com/alexmilitaryvak-ux/rus-config-donetsk-updates/releases/download/rcd-1.23/RUS_Config_Donetsk_1.23_PATCH_UPDATE.zip",
-      "assetApiUrl": "https://api.github.com/repos/alexmilitaryvak-ux/rus-config-donetsk-updates/releases/assets/436332067",
-      "sha256": "5C25D921DFB2F9C9A3A0B586F1BDE612C9214A2971F2125559ED06892F385087",
-      "files": [
-        {
-          "path": "package.json",
-          "sha256": "803101A2C5D1CF928565E3E482E56986D8598BE40C5F676C03C1E7A3BA6EC532"
-        },
-        {
-          "path": "offline-firmware/HAKRCF405V2_gray_eou/fw.bin",
-          "sha256": "24D273180B6EFF64197D8B0F25BFBFE4B1036A86AE2577F5AF9CB22A4AE45A48"
-        }
-      ]
-    },
-    {
-      "version": "1.24",
-      "name": "Патч 1.24: TBF v8 F405 V01 ПВХ-1Т (Серый) 610002",
-      "package": "RUS_Config_Donetsk_1.24_PATCH_UPDATE.zip",
-      "packageUrl": "https://github.com/alexmilitaryvak-ux/rus-config-donetsk-updates/releases/download/rcd-1.24/RUS_Config_Donetsk_1.24_PATCH_UPDATE.zip",
-      "assetApiUrl": "https://api.github.com/repos/alexmilitaryvak-ux/rus-config-donetsk-updates/releases/assets/437016416",
-      "sha256": "F735BB97FC67A04240FC2EEA9EB83AF645F7D7CB932952B0FBD76DF827625A5C",
-      "files": [
-        {
-          "path": "package.json",
-          "sha256": "B475CC3A0097C7185E395EB3C02E0BC4DEFAF4E4D83D05D26ABDC54E5A37E15B"
-        },
-        {
-          "path": "js/rus-config-donetsk-vtx-tables.js",
-          "sha256": "7C2F090BA6F95C3BF44B9B0AED1160C23CBF61DB42481A610F8A1105EBE3E580"
-        },
-        {
-          "path": "offline-firmware/TBF8_F405_V01_PVH1T_gray_610002/fw.bin",
-          "sha256": "2E12F8963F06138E7031F78B8A1F82561C482852BD2187EE2DE8490B3426C8F3"
-        }
-      ]
-    },
-    {
-      "version": "1.25",
-      "name": "Патч 1.25: замена файла TBF v8 F405 V01 ПВХ-1Т (Серый) 610002",
-      "package": "RUS_Config_Donetsk_1.25_PATCH_UPDATE.zip",
-      "packageUrl": "https://github.com/alexmilitaryvak-ux/rus-config-donetsk-updates/releases/download/rcd-1.25/RUS_Config_Donetsk_1.25_PATCH_UPDATE.zip",
-      "assetApiUrl": "https://api.github.com/repos/alexmilitaryvak-ux/rus-config-donetsk-updates/releases/assets/437036979",
-      "sha256": "FD91423399C93B75110EAC2729B4E859194543159DF5929BE5CCCE3ED844E679",
-      "files": [
-        {
-          "path": "package.json",
-          "sha256": "E93D43D954DF70F01897B2D6CB09505A2E86A0EBE03938B1098EFF4AFF694277"
-        },
-        {
-          "path": "offline-firmware/TBF8_F405_V01_PVH1T_gray_610002/fw.bin",
-          "sha256": "6569CACABB16C0876F8E388AD93E19899A2E3AEF1684B60D8B0286FCC2882E47"
-        }
-      ]
-    },
-    {
-      "version": "1.26",
-      "name": "Патч 1.26: замена файла TBF v8 F405 V01 ПВХ-1Т (Серый) 610002",
-      "package": "RUS_Config_Donetsk_1.26_PATCH_UPDATE.zip",
-      "packageUrl": "https://github.com/alexmilitaryvak-ux/rus-config-donetsk-updates/releases/download/rcd-1.26/RUS_Config_Donetsk_1.26_PATCH_UPDATE.zip",
-      "assetApiUrl": "https://api.github.com/repos/alexmilitaryvak-ux/rus-config-donetsk-updates/releases/assets/437105762",
-      "sha256": "9BE00B357A741089F723C036AE290CDBD5DC6E8AB0666763408BC583A696E469",
-      "files": [
-        {
-          "path": "package.json",
-          "sha256": "3954A7719DB8253AAF51F08C9351DDEE75141B8068896925350D8795EE5D8EA4"
-        },
-        {
-          "path": "offline-firmware/TBF8_F405_V01_PVH1T_gray_610002/fw.bin",
-          "sha256": "71A09E7281F25664214200049D17DC91A16EBC6994F0037E688802BD12DAD66E"
-        }
-      ]
-    },
-    {
-      "version": "1.27",
-      "name": "Патч 1.27: замена файла HAKRCF405V2 (серый) EOU",
-      "package": "RUS_Config_Donetsk_1.27_PATCH_UPDATE.zip",
-      "packageUrl": "https://github.com/alexmilitaryvak-ux/rus-config-donetsk-updates/releases/download/rcd-1.27/RUS_Config_Donetsk_1.27_PATCH_UPDATE.zip",
-      "assetApiUrl": "https://api.github.com/repos/alexmilitaryvak-ux/rus-config-donetsk-updates/releases/assets/437334682",
-      "sha256": "EBFFD5D4029F17F736884610E81B4FDCE113EDF8D45852722D3676EA30CDA53F",
-      "files": [
-        {
-          "path": "package.json",
-          "sha256": "577E0FC7CF4DE9D514926E292E609FF73C7B58AB5BC3E2C3F3C328F03ACB0D4F"
-        },
-        {
-          "path": "offline-firmware/HAKRCF405V2_gray_eou/fw.bin",
-          "sha256": "995A2749849CFAC1081EFFC5E61CBDC5CE8720722A8703AA846D62692AA6AE5D"
-        }
-      ]
-    },
-    {
-      "version": "1.28",
-      "name": "Патч 1.28: освобождение COM-порта для ESC Configurator",
-      "package": "RUS_Config_Donetsk_1.28_PATCH_UPDATE.zip",
-      "packageUrl": "https://github.com/alexmilitaryvak-ux/rus-config-donetsk-updates/releases/download/rcd-1.28/RUS_Config_Donetsk_1.28_PATCH_UPDATE.zip",
-      "assetApiUrl": "https://api.github.com/repos/alexmilitaryvak-ux/rus-config-donetsk-updates/releases/assets/439417191",
-      "sha256": "C264C95D345471955D56185A86F1088D62FA22402898FD0D93769D6724373DA5",
-      "files": [
-        {
-          "path": "package.json",
-          "sha256": "952456BCD2414390FF82FEF34A0A6F22EFB448D7AAF26C0881C40595E0C01E67"
-        },
-        {
-          "path": "js/rus-config-donetsk-vtx-tables.js",
-          "sha256": "709EFF6C387CE9649AC3716ECEB7FF1DEBF5DD09944ED43B8A4BC5DCC220A307"
-        },
-        {
-          "path": "css/rus-config-donetsk.css",
-          "sha256": "CD014031153A6F2D138EF94B7A6400DC3133A0499EBDF2E0E128406F040D946E"
-        }
-      ]
-    },
-    {
-      "version": "1.29",
-      "name": "Патч 1.29: замена прошивки ПВХ-1Т (серый) 610002",
-      "package": "RUS_Config_Donetsk_1.29_PATCH_UPDATE.zip",
-      "packageUrl": "https://github.com/alexmilitaryvak-ux/rus-config-donetsk-updates/releases/download/rcd-1.29/RUS_Config_Donetsk_1.29_PATCH_UPDATE.zip",
-      "assetApiUrl": "https://api.github.com/repos/alexmilitaryvak-ux/rus-config-donetsk-updates/releases/assets/439973965",
-      "sha256": "536176AF8042C663C73E1347073C6C01980C04C23F9F0EA8E13198DE624B79F7",
-      "files": [
-        {
-          "path": "package.json",
-          "sha256": "5FB4D1A08A815B1518FF5C546DF7FB8DB0BCFEE1FFAAD680DAE73D5A74442115"
-        },
-        {
-          "path": "offline-firmware/TBF8_F405_V01_PVH1T_gray_610002/fw.bin",
-          "sha256": "B5389E514F6439FA8189C364D665102FAF1C185E70888AF6BA167CB4A35AAEE9"
-        }
-      ]
-    },
-    {
-      "version": "1.30",
-      "name": "Патч 1.30: быстрые кнопки OSD и свежая прошивка ПВХ-1Т",
-      "package": "RUS_Config_Donetsk_1.30_PATCH_UPDATE.zip",
-      "packageUrl": "https://github.com/alexmilitaryvak-ux/rus-config-donetsk-updates/releases/download/rcd-1.30/RUS_Config_Donetsk_1.30_PATCH_UPDATE.zip",
-      "assetApiUrl": "https://api.github.com/repos/alexmilitaryvak-ux/rus-config-donetsk-updates/releases/assets/440717512",
-      "sha256": "58293D76A1953E519A6B62433E083EE67E08D8EA632355BFB2DBC0670DA3936D",
-      "files": [
-        {
-          "path": "package.json",
-          "sha256": "0D980A122E66668BF28F9819086BBF3EEAD713C44C5B03CF02CE0A1A610F0807"
-        },
-        {
-          "path": "tabs/osd.html",
-          "sha256": "A4C387959B833D9D47E6633A0705B2CFD651DE970458694194F959956952C3B3"
-        },
-        {
-          "path": "js/main.js",
-          "sha256": "9E90EE054061125956F1AD7C01AC475F54A2A0A224B134DAAAE041A777F8FCE8"
-        },
-        {
-          "path": "css/rus-config-donetsk.css",
-          "sha256": "85D0CB39DD98EA89410B84B766479B36C8180AF399A73F957FD41C2EDA86109E"
-        },
-        {
-          "path": "offline-firmware/TBF8_F405_V01_PVH1T_gray_610002/fw.bin",
-          "sha256": "6073DF2ACF5D0B8166C9D89633867448B407FE8D16D3DF7148134D959021BB24"
-        }
-      ]
-    },
-    {
-      "version": "1.31",
-      "name": "Патч 1.31: память имени пилота OSD",
-      "package": "RUS_Config_Donetsk_1.31_PATCH_UPDATE.zip",
-      "packageUrl": "https://github.com/alexmilitaryvak-ux/rus-config-donetsk-updates/releases/download/rcd-1.31/RUS_Config_Donetsk_1.31_PATCH_UPDATE.zip",
-      "assetApiUrl": "https://api.github.com/repos/alexmilitaryvak-ux/rus-config-donetsk-updates/releases/assets/441539891",
-      "sha256": "E1514E334A0901B047D5BEEF081C56B0B913CEF3AE07E0B6493CB6F35188D6D7",
-      "files": [
-        {
-          "path": "package.json",
-          "sha256": "7E8625A53FC9151D60A1C2C9C6DEDCC490406DFCEB7520E2BE0096173BA1E46C"
-        },
-        {
-          "path": "tabs/osd.html",
-          "sha256": "7E9D0FCCE76BD3FA91E021BE925208680F2BF5363C7751308EFE196B25B631A1"
-        },
-        {
-          "path": "js/main.js",
-          "sha256": "8CE6B19A461695D853AA74FE7BCADBF2EF9FFA36C4305F6B23CC2EA46AD9ECBA"
-        }
-      ]
-    },
-    {
-      "version": "1.32",
-      "displayVersion": "version AI 0.1",
-      "name": "Патч version AI 0.1: ассистент и offline-прошивки",
-      "package": "RUS_Config_Donetsk_1.32_PATCH_UPDATE.zip",
-      "packageUrl": "https://github.com/alexmilitaryvak-ux/rus-config-donetsk-updates/releases/download/rcd-1.32/RUS_Config_Donetsk_1.32_PATCH_UPDATE.zip",
-      "assetApiUrl": "https://api.github.com/repos/alexmilitaryvak-ux/rus-config-donetsk-updates/releases/assets/442109105",
-      "sha256": "EFF3576407C4DB4687F39C547785AEA1EC50DF1A0FD78E075868283DC2962C20",
-      "files": [
-        {
-          "path": "package.json",
-          "sha256": "431FFBB8B08F1DE20447DF1F4F6E62A68AE8D77826393878F45D4F45C0F2D7AD"
+          "sha256": "E67418EC91257B3603ABF9B49F0E9989F159D0861AD22DA6C5F4E24EA41A8548"
         },
         {
           "path": "common.js",
@@ -270,7 +53,15 @@
         },
         {
           "path": "js/rus-config-donetsk-vtx-tables.js",
-          "sha256": "E5B82E2319DA9FA86F8AFDAF9E600963354E7FC242FEB390946E5E61AF5F63A7"
+          "sha256": "0BF1DDDC7BBC77DB467882BBBDF6E827501F68B9725244F58EF06C080FED0E5C"
+        },
+        {
+          "path": "css/rus-config-donetsk.css",
+          "sha256": "2F59B3C2F91C727D00A6A8AB62EC5A09BEA6D6336D8EB830E337BF46788477DE"
+        },
+        {
+          "path": "tabs/osd.html",
+          "sha256": "7983E5E665E8F9603781BA8E4CF973AE5F8D811FF2779C83C7E72DF9A1F1529B"
         },
         {
           "path": "offline-firmware/GENERICF4V2_4.5.1_G13_green/fw.bin",
