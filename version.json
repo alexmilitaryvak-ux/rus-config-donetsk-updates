@@ -1,56 +1,77 @@
 {
-  "version": "1.34",
-  "appVersion": "1.34",
-  "displayVersion": "version AI 0.3",
-  "aiVersion": "0.3",
-  "title": "RUS Config Donetsk version AI 0.3",
-  "package": "RUS_Config_Donetsk_1.34_CUMULATIVE_UPDATE.zip",
-  "date": "2026-06-09",
-  "cumulative": true,
-  "notes": [
-    "Добавлена offline-прошивка HAKRCF405V2 MILBETA (Оранжевый - исправленный(гироскоп)) ПВХ-1Т.",
-    "Файл прошивки добавлен в список прошивок Offline отдельным пунктом и включен в накопительный пакет.",
-    "Версия приложения поднята до version AI 0.3, техническая версия updater: 1.34.",
-    "В пакет включены актуальные доработки ассистента, интерфейса, OSD и офлайн-прошивок."
-  ],
-  "packageUrl": "https://github.com/alexmilitaryvak-ux/rus-config-donetsk-updates/releases/download/rcd-1.34/RUS_Config_Donetsk_1.34_CUMULATIVE_UPDATE.zip",
-  "assetApiUrl": "https://api.github.com/repos/alexmilitaryvak-ux/rus-config-donetsk-updates/releases/assets/442901839",
-  "sha256": "60940D0FE1E3B2D5A4962494D1F28C594EB6CB7F92F0E6AE3B08F9BDCBE46FF8",
-  "size": 259783075,
-  "packageSize": 259783075,
-  "packages": [
-    {
-      "version": "1.34",
-      "displayVersion": "version AI 0.3",
-      "name": "Глобальное обновление version AI 0.3: новая offline-прошивка HAKRCF405V2 MILBETA",
-      "cumulative": true,
-      "package": "RUS_Config_Donetsk_1.34_CUMULATIVE_UPDATE.zip",
-      "packageUrl": "https://github.com/alexmilitaryvak-ux/rus-config-donetsk-updates/releases/download/rcd-1.34/RUS_Config_Donetsk_1.34_CUMULATIVE_UPDATE.zip",
-      "assetApiUrl": "https://api.github.com/repos/alexmilitaryvak-ux/rus-config-donetsk-updates/releases/assets/442901839",
-      "sha256": "60940D0FE1E3B2D5A4962494D1F28C594EB6CB7F92F0E6AE3B08F9BDCBE46FF8",
-      "size": 259783075,
-      "files": [
-        {
-          "path": "package.json",
-          "sha256": "5B57E69B783F5E22310B93BB48C9CE4B5763B69F1DEF7A8A3AE98849262616E1"
-        },
-        {
-          "path": "js/rus-config-donetsk-vtx-tables.js",
-          "sha256": "841427D1846A95BE4321CC05E51D27D7AAF2531CC9E1565FDB0E808A01674CC5"
-        },
-        {
-          "path": "offline-firmware/HAKRCF405V2_MILBETA_orange_gyro_fixed_PVH1T/fw.bin",
-          "sha256": "929633221C8B11491D451B7BA12EB93D8A7350C10987D775FB4DB10A860A3A0B"
-        },
-        {
-          "path": "offline-firmware/HAKRCF405V2_4.5.1_orange/fw.bin",
-          "sha256": "66C7327094AA853C2D2E4CEAC0A4369CFDC591AFA7458F7481589C9C2C62C1A9"
-        },
-        {
-          "path": "offline-firmware/HAKRCF405V2_orange_sudny_den/fw.bin",
-          "sha256": "3C7104E51B2F85C6DC337A13880EC192D581A9EAAA476FBAD944C54ABAB6B249"
-        }
-      ]
-    }
-  ]
+    "version":  "1.35",
+    "appVersion":  "1.35",
+    "displayVersion":  "version AI 0.4",
+    "aiVersion":  "0.4",
+    "title":  "RUS Config Donetsk version AI 0.4",
+    "package":  "RUS_Config_Donetsk_1.35_CUMULATIVE_UPDATE.zip",
+    "date":  "2026-06-10",
+    "cumulative":  true,
+    "notes":  [
+                  "AI emblem on the landing screen is smaller and cleaner.",
+                  "Small patch package is available for users already on version AI 0.3.",
+                  "Application version is now version AI 0.4, updater version 1.35.",
+                  "Cumulative 1.35 archive is available for users who skipped earlier updates."
+              ],
+    "packageUrl":  "https://github.com/alexmilitaryvak-ux/rus-config-donetsk-updates/releases/download/rcd-1.35/RUS_Config_Donetsk_1.35_CUMULATIVE_UPDATE.zip",
+    "assetApiUrl":  "https://api.github.com/repos/alexmilitaryvak-ux/rus-config-donetsk-updates/releases/assets/443829552",
+    "sha256":  "C64CFECC9D2A70461607D301D0071467BB4D51773E664D9A902917E8775B2C47",
+    "size":  259374533,
+    "packageSize":  259374533,
+    "packages":  [
+                     {
+                         "version":  "1.34",
+                         "displayVersion":  "version AI 0.3",
+                         "name":  "Глобальное обновление version AI 0.3: новая offline-прошивка HAKRCF405V2 MILBETA",
+                         "cumulative":  true,
+                         "package":  "RUS_Config_Donetsk_1.34_CUMULATIVE_UPDATE.zip",
+                         "packageUrl":  "https://github.com/alexmilitaryvak-ux/rus-config-donetsk-updates/releases/download/rcd-1.34/RUS_Config_Donetsk_1.34_CUMULATIVE_UPDATE.zip",
+                         "assetApiUrl":  "https://api.github.com/repos/alexmilitaryvak-ux/rus-config-donetsk-updates/releases/assets/442901839",
+                         "sha256":  "60940D0FE1E3B2D5A4962494D1F28C594EB6CB7F92F0E6AE3B08F9BDCBE46FF8",
+                         "size":  259783075,
+                         "files":  [
+                                       {
+                                           "path":  "package.json",
+                                           "sha256":  "5B57E69B783F5E22310B93BB48C9CE4B5763B69F1DEF7A8A3AE98849262616E1"
+                                       },
+                                       {
+                                           "path":  "js/rus-config-donetsk-vtx-tables.js",
+                                           "sha256":  "841427D1846A95BE4321CC05E51D27D7AAF2531CC9E1565FDB0E808A01674CC5"
+                                       },
+                                       {
+                                           "path":  "offline-firmware/HAKRCF405V2_MILBETA_orange_gyro_fixed_PVH1T/fw.bin",
+                                           "sha256":  "929633221C8B11491D451B7BA12EB93D8A7350C10987D775FB4DB10A860A3A0B"
+                                       },
+                                       {
+                                           "path":  "offline-firmware/HAKRCF405V2_4.5.1_orange/fw.bin",
+                                           "sha256":  "66C7327094AA853C2D2E4CEAC0A4369CFDC591AFA7458F7481589C9C2C62C1A9"
+                                       },
+                                       {
+                                           "path":  "offline-firmware/HAKRCF405V2_orange_sudny_den/fw.bin",
+                                           "sha256":  "3C7104E51B2F85C6DC337A13880EC192D581A9EAAA476FBAD944C54ABAB6B249"
+                                       }
+                                   ]
+                     },
+                     {
+                         "version":  "1.35",
+                         "displayVersion":  "version AI 0.4",
+                         "name":  "Patch version AI 0.4: compact AI emblem on landing screen",
+                         "cumulative":  false,
+                         "package":  "RUS_Config_Donetsk_1.35_PATCH_UPDATE.zip",
+                         "packageUrl":  "https://github.com/alexmilitaryvak-ux/rus-config-donetsk-updates/releases/download/rcd-1.35/RUS_Config_Donetsk_1.35_PATCH_UPDATE.zip",
+                         "assetApiUrl":  "https://api.github.com/repos/alexmilitaryvak-ux/rus-config-donetsk-updates/releases/assets/443829553",
+                         "sha256":  "AC39D4C6156A192E9586476BA3E69755AFCBE7FD52EDAC443B73609E31E5EA2C",
+                         "size":  34058,
+                         "files":  [
+                                       {
+                                           "path":  "package.json",
+                                           "sha256":  "B38DADA57FCA233FF57B082834D3A10DC0619968DD3D3FD45D22475196813198"
+                                       },
+                                       {
+                                           "path":  "css/rus-config-donetsk.css",
+                                           "sha256":  "0823EA3F5F2F9B4E0BC5A6B63CB1DC0601B6505EB57A11C1C41666F72CB2F543"
+                                       }
+                                   ]
+                     }
+                 ]
 }
