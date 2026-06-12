@@ -1,77 +1,99 @@
 {
-    "version":  "1.35",
-    "appVersion":  "1.35",
-    "displayVersion":  "version AI 0.4",
-    "aiVersion":  "0.4",
-    "title":  "RUS Config Donetsk version AI 0.4",
-    "package":  "RUS_Config_Donetsk_1.35_CUMULATIVE_UPDATE.zip",
-    "date":  "2026-06-10",
-    "cumulative":  true,
-    "notes":  [
-                  "AI emblem on the landing screen is smaller and cleaner.",
-                  "Small patch package is available for users already on version AI 0.3.",
-                  "Application version is now version AI 0.4, updater version 1.35.",
-                  "Cumulative 1.35 archive is available for users who skipped earlier updates."
-              ],
-    "packageUrl":  "https://github.com/alexmilitaryvak-ux/rus-config-donetsk-updates/releases/download/rcd-1.35/RUS_Config_Donetsk_1.35_CUMULATIVE_UPDATE.zip",
-    "assetApiUrl":  "https://api.github.com/repos/alexmilitaryvak-ux/rus-config-donetsk-updates/releases/assets/443829552",
-    "sha256":  "C64CFECC9D2A70461607D301D0071467BB4D51773E664D9A902917E8775B2C47",
-    "size":  259374533,
-    "packageSize":  259374533,
-    "packages":  [
-                     {
-                         "version":  "1.34",
-                         "displayVersion":  "version AI 0.3",
-                         "name":  "Глобальное обновление version AI 0.3: новая offline-прошивка HAKRCF405V2 MILBETA",
-                         "cumulative":  true,
-                         "package":  "RUS_Config_Donetsk_1.34_CUMULATIVE_UPDATE.zip",
-                         "packageUrl":  "https://github.com/alexmilitaryvak-ux/rus-config-donetsk-updates/releases/download/rcd-1.34/RUS_Config_Donetsk_1.34_CUMULATIVE_UPDATE.zip",
-                         "assetApiUrl":  "https://api.github.com/repos/alexmilitaryvak-ux/rus-config-donetsk-updates/releases/assets/442901839",
-                         "sha256":  "60940D0FE1E3B2D5A4962494D1F28C594EB6CB7F92F0E6AE3B08F9BDCBE46FF8",
-                         "size":  259783075,
-                         "files":  [
-                                       {
-                                           "path":  "package.json",
-                                           "sha256":  "5B57E69B783F5E22310B93BB48C9CE4B5763B69F1DEF7A8A3AE98849262616E1"
-                                       },
-                                       {
-                                           "path":  "js/rus-config-donetsk-vtx-tables.js",
-                                           "sha256":  "841427D1846A95BE4321CC05E51D27D7AAF2531CC9E1565FDB0E808A01674CC5"
-                                       },
-                                       {
-                                           "path":  "offline-firmware/HAKRCF405V2_MILBETA_orange_gyro_fixed_PVH1T/fw.bin",
-                                           "sha256":  "929633221C8B11491D451B7BA12EB93D8A7350C10987D775FB4DB10A860A3A0B"
-                                       },
-                                       {
-                                           "path":  "offline-firmware/HAKRCF405V2_4.5.1_orange/fw.bin",
-                                           "sha256":  "66C7327094AA853C2D2E4CEAC0A4369CFDC591AFA7458F7481589C9C2C62C1A9"
-                                       },
-                                       {
-                                           "path":  "offline-firmware/HAKRCF405V2_orange_sudny_den/fw.bin",
-                                           "sha256":  "3C7104E51B2F85C6DC337A13880EC192D581A9EAAA476FBAD944C54ABAB6B249"
-                                       }
-                                   ]
-                     },
-                     {
-                         "version":  "1.35",
-                         "displayVersion":  "version AI 0.4",
-                         "name":  "Patch version AI 0.4: compact AI emblem on landing screen",
-                         "cumulative":  false,
-                         "package":  "RUS_Config_Donetsk_1.35_PATCH_UPDATE.zip",
-                         "packageUrl":  "https://github.com/alexmilitaryvak-ux/rus-config-donetsk-updates/releases/download/rcd-1.35/RUS_Config_Donetsk_1.35_PATCH_UPDATE.zip",
-                         "assetApiUrl":  "https://api.github.com/repos/alexmilitaryvak-ux/rus-config-donetsk-updates/releases/assets/443829553",
-                         "sha256":  "AC39D4C6156A192E9586476BA3E69755AFCBE7FD52EDAC443B73609E31E5EA2C",
-                         "size":  34058,
-                         "files":  [
-                                       {
-                                           "path":  "package.json",
-                                           "sha256":  "B38DADA57FCA233FF57B082834D3A10DC0619968DD3D3FD45D22475196813198"
-                                       },
-                                       {
-                                           "path":  "css/rus-config-donetsk.css",
-                                           "sha256":  "0823EA3F5F2F9B4E0BC5A6B63CB1DC0601B6505EB57A11C1C41666F72CB2F543"
-                                       }
-                                   ]
-                     }
-                 ]
+  "version": "1.36",
+  "appVersion": "1.36",
+  "displayVersion": "version AI 0.5",
+  "aiVersion": "0.5",
+  "title": "RUS Config Donetsk version AI 0.5",
+  "package": "RUS_Config_Donetsk_1.36_CUMULATIVE_UPDATE.zip",
+  "date": "2026-06-11",
+  "cumulative": true,
+  "notes": [
+    "Полное накопительное обновление: устанавливает актуальный комплект RUS Config Donetsk без цепочки старых патчей.",
+    "Включен новый ряд значков стартового экрана: AI-щит, PID Master, INAV, RX-прошивальщик и MILBETA FC слева направо.",
+    "Обновлён ассистент: VTX/Bands по буквам и первым частотам, ответы по назначенным частотам, аккуратные карточки без лишнего блока “Источник”.",
+    "Добавлены свежие правки OSD: кнопка “Сборка”, блок названия сборки, центрирование прицела/ПВХ/горизонта и корректное расположение панели имени пилота.",
+    "Исправлена полоса прогресса при загрузке/прошивке offline firmware.",
+    "В CLI заменён водяной знак Betaflight на DroneFlight.",
+    "Версия приложения поднята до version AI 0.5, техническая версия updater: 1.36."
+  ],
+  "packageUrl": "https://github.com/alexmilitaryvak-ux/rus-config-donetsk-updates/releases/download/rcd-1.36/RUS_Config_Donetsk_1.36_CUMULATIVE_UPDATE.zip",
+  "assetApiUrl": "https://api.github.com/repos/alexmilitaryvak-ux/rus-config-donetsk-updates/releases/assets/445402681",
+  "sha256": "A4F8BE84C75AD99B1BA7976D1931D172FC71BB4D63E44F487F81D2431D38B2A6",
+  "size": 277927718,
+  "packageSize": 277927718,
+  "packages": [
+    {
+      "version": "1.36",
+      "displayVersion": "version AI 0.5",
+      "name": "Полное обновление version AI 0.5: ассистент, OSD, offline firmware и стартовые значки",
+      "cumulative": true,
+      "package": "RUS_Config_Donetsk_1.36_CUMULATIVE_UPDATE.zip",
+      "packageUrl": "https://github.com/alexmilitaryvak-ux/rus-config-donetsk-updates/releases/download/rcd-1.36/RUS_Config_Donetsk_1.36_CUMULATIVE_UPDATE.zip",
+      "assetApiUrl": "https://api.github.com/repos/alexmilitaryvak-ux/rus-config-donetsk-updates/releases/assets/445402681",
+      "sha256": "A4F8BE84C75AD99B1BA7976D1931D172FC71BB4D63E44F487F81D2431D38B2A6",
+      "size": 277927718,
+      "files": [
+        {
+          "path": "package.json",
+          "sha256": "7F071EAC4CCAD5D966D5E172E9FD54C547E55CFB3D63C728962B210EA405E3CA"
+        },
+        {
+          "path": "common.js",
+          "sha256": "F47D78E9DE19FF689997037BAEE1B039DB0D1F91BF4BEB343456A8F9B517ABE1"
+        },
+        {
+          "path": "landing.js",
+          "sha256": "1BBFCC33FE9120A1BD9477435E8F01DBD37D79767EE0DEB7D5BFD2E8BE035618"
+        },
+        {
+          "path": "firmware_flasher.js",
+          "sha256": "9348E2ECC8E4386510D3112ABFE92B01757E845C02E936A48D7C4112FAA3D43C"
+        },
+        {
+          "path": "js/main.js",
+          "sha256": "FB8A916DC33C55D550A689E951B40B987D41B6FD526F5BF08DAEBDEA5CCD2415"
+        },
+        {
+          "path": "js/rus-config-donetsk-vtx-tables.js",
+          "sha256": "3E642C201979AEAC6EE55E0124C227381D7BBC59E7B9F8A53B062F6FC70A329C"
+        },
+        {
+          "path": "css/rus-config-donetsk.css",
+          "sha256": "43C799F7F4F0CC1B8A8C1D5F09944A79B052E0697821BB02138E67A07C465DC4"
+        },
+        {
+          "path": "tabs/landing.html",
+          "sha256": "18EB991621E95090F1450FE13FA78FD093611ECB523D94424DA86A3F3CB8F764"
+        },
+        {
+          "path": "tabs/osd.html",
+          "sha256": "EA4042E2138D15A46CCB0F341C4941502612ABEDEFC1B16A23BC93C627E7A081"
+        },
+        {
+          "path": "images/rus-config-ai-shield.png",
+          "sha256": "03D5EBF3DD4DA25757FF4A131985462815C30AD613918804167FC44E1B9F2F6D"
+        },
+        {
+          "path": "images/rus-config-landing-pid-master.png",
+          "sha256": "08C74EA22EDA4C98C9D2DF8184B07D550CB400FEB31430921979788C9BC8C5F3"
+        },
+        {
+          "path": "images/rus-config-landing-inav.png",
+          "sha256": "B9E7EA8879EF64C9A8F5C38231BB7C2A0F07D62355B8AD972799EA646F6FB167"
+        },
+        {
+          "path": "images/rus-config-landing-rx-flasher.png",
+          "sha256": "FD8926DF21848334C839C9A4B0BF63254CEC477FB93BACDA72A55138A4E186A4"
+        },
+        {
+          "path": "images/rus-config-landing-milbeta-fc.png",
+          "sha256": "94643A089CA8A99BD199557F8BABCBD021053AC5B5A7154D65C66536DD6E0694"
+        },
+        {
+          "path": "images/droneflight_cli_logo_mono_gray.png",
+          "sha256": "DA82138EC92D6398EDC2372B625D7EB6FAA2EA267B7F718A0172CD45696E34DD"
+        }
+      ]
+    }
+  ]
 }
