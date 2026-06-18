@@ -1,41 +1,44 @@
 {
-  "version": "1.36",
-  "appVersion": "1.36",
-  "displayVersion": "version AI 0.5",
-  "aiVersion": "0.5",
-  "title": "RUS Config Donetsk version AI 0.5",
-  "package": "RUS_Config_Donetsk_1.36_CUMULATIVE_UPDATE.zip",
-  "date": "2026-06-11",
+  "version": "1.38",
+  "appVersion": "1.38",
+  "displayVersion": "version AI 0.7",
+  "aiVersion": "0.7",
+  "title": "RUS Config Donetsk version AI 0.7",
+  "package": "RUS_Config_Donetsk_1.38_CUMULATIVE_UPDATE.zip",
+  "date": "2026-06-17",
   "cumulative": true,
   "notes": [
-    "Полное накопительное обновление: устанавливает актуальный комплект RUS Config Donetsk без цепочки старых патчей.",
-    "Включен новый ряд значков стартового экрана: AI-щит, PID Master, INAV, RX-прошивальщик и MILBETA FC слева направо.",
-    "Обновлён ассистент: VTX/Bands по буквам и первым частотам, ответы по назначенным частотам, аккуратные карточки без лишнего блока “Источник”.",
-    "Добавлены свежие правки OSD: кнопка “Сборка”, блок названия сборки, центрирование прицела/ПВХ/горизонта и корректное расположение панели имени пилота.",
-    "Исправлена полоса прогресса при загрузке/прошивке offline firmware.",
-    "В CLI заменён водяной знак Betaflight на DroneFlight.",
-    "Версия приложения поднята до version AI 0.5, техническая версия updater: 1.36."
+    "Polnoe nakopitelnoe obnovlenie RUS Config Donetsk version AI 0.7: glubokaya pererabotka assistenta (10 etapov) + 29 bagov audita.",
+    "Assistant ponimaet opechatki (fuzzy matching), pomnit kontekst dialoga, zadaet utochnyayuschie voprosy pri neodnoznachnosti.",
+    "Novye intenty: interaktivnaya diagnostika arminga, obyasnenie CLI-nastroek (set p_roll, motor_idle i dr.), rezume sessii, polnyy eksport nastroek.",
+    "Bezopasnost: umnyy gate pered zapisyu na FC (kritichnaya batareya, zanyatyy CLI, vopros o propellerah), validaciya opasnyh set-znacheniy.",
+    "Tihiy bedzh problem: RXLOSS/NO_GYRO, failsafe vyklyuchen, OSD bez napryazheniya, motor_idle zavysen - proveryaet FC kazhdye 10s bez interneta.",
+    "Kontekstnye quick-chip knopki nad polem vvoda, avtodopolnenie komand (75 podskazok), zhurnal pravok s undo i slepkom konfiguracii.",
+    "Otvety na terminy: DFU, PID, rates, ELRS, CRSF, SBUS, GPS Rescue, Blackbox, RPM-filtr, Turtle Mode i dr. (~37 terminov + dinamicheskiy slovar iz damping FC).",
+    "29 bagov pochineno: strelka vetra 90 gradusov, ARM/PREARM kolliZIYa, clamp NaN v PID-buildere, CLI race pri rekonnekte, i dr. (sm. CHANGELOG.md).",
+    "Proizvoditelnost: memoizaciya kesha reliefa (karta svyazi bystree v desyatki raz).",
+    "Versiya prilozheniya podnyata do version AI 0.7, tehnicheskaya versiya: 1.38. Vse rabotaet offline, bez interneta."
   ],
-  "packageUrl": "https://github.com/alexmilitaryvak-ux/rus-config-donetsk-updates/releases/download/rcd-1.36/RUS_Config_Donetsk_1.36_CUMULATIVE_UPDATE.zip",
-  "assetApiUrl": "https://api.github.com/repos/alexmilitaryvak-ux/rus-config-donetsk-updates/releases/assets/445402681",
-  "sha256": "A4F8BE84C75AD99B1BA7976D1931D172FC71BB4D63E44F487F81D2431D38B2A6",
-  "size": 277927718,
-  "packageSize": 277927718,
+  "packageUrl": "https://github.com/alexmilitaryvak-ux/rus-config-donetsk-updates/releases/download/rcd-1.38/RUS_Config_Donetsk_1.38_CUMULATIVE_UPDATE.zip",
+  "assetApiUrl": "https://api.github.com/repos/alexmilitaryvak-ux/rus-config-donetsk-updates/releases/assets/450932880",
+  "sha256": "9D48D17838D19FAF9074BB0386207FA4F1964E49771456B345999885C2D74193",
+  "size": 375652007,
+  "packageSize": 375652007,
   "packages": [
     {
-      "version": "1.36",
-      "displayVersion": "version AI 0.5",
-      "name": "Полное обновление version AI 0.5: ассистент, OSD, offline firmware и стартовые значки",
+      "version": "1.38",
+      "displayVersion": "version AI 0.7",
+      "name": "Polnoe obnovlenie version AI 0.7: pererabotka assistenta (10 etapov), 29 bagov, bezopasnost, offline",
       "cumulative": true,
-      "package": "RUS_Config_Donetsk_1.36_CUMULATIVE_UPDATE.zip",
-      "packageUrl": "https://github.com/alexmilitaryvak-ux/rus-config-donetsk-updates/releases/download/rcd-1.36/RUS_Config_Donetsk_1.36_CUMULATIVE_UPDATE.zip",
-      "assetApiUrl": "https://api.github.com/repos/alexmilitaryvak-ux/rus-config-donetsk-updates/releases/assets/445402681",
-      "sha256": "A4F8BE84C75AD99B1BA7976D1931D172FC71BB4D63E44F487F81D2431D38B2A6",
-      "size": 277927718,
+      "package": "RUS_Config_Donetsk_1.38_CUMULATIVE_UPDATE.zip",
+      "packageUrl": "https://github.com/alexmilitaryvak-ux/rus-config-donetsk-updates/releases/download/rcd-1.38/RUS_Config_Donetsk_1.38_CUMULATIVE_UPDATE.zip",
+      "assetApiUrl": "https://api.github.com/repos/alexmilitaryvak-ux/rus-config-donetsk-updates/releases/assets/450932880",
+      "sha256": "9D48D17838D19FAF9074BB0386207FA4F1964E49771456B345999885C2D74193",
+      "size": 375652007,
       "files": [
         {
           "path": "package.json",
-          "sha256": "7F071EAC4CCAD5D966D5E172E9FD54C547E55CFB3D63C728962B210EA405E3CA"
+          "sha256": "B003355312A8CB266523F5CFC3DD620FC3008375742F0C0E6CA3E926049FD00E"
         },
         {
           "path": "common.js",
@@ -55,43 +58,43 @@
         },
         {
           "path": "js/rus-config-donetsk-vtx-tables.js",
-          "sha256": "3E642C201979AEAC6EE55E0124C227381D7BBC59E7B9F8A53B062F6FC70A329C"
+          "sha256": "8BA17FC1A3C2E7E5EA7D2A574ACEE8A7FF8DB3580A5267E8232C61C8C41C6958"
+        },
+        {
+          "path": "js/rus-config-donetsk-bf-pid-builder.js",
+          "sha256": "26522D107BA7EE582691FBFF99D79C07A08D06E1ED8723F3B683E5A45319799A"
+        },
+        {
+          "path": "js/rus-config-donetsk-hold-modes.js",
+          "sha256": "83E0C9E58422281C15BF43C736EA7248455638111C829D0FEC56DA4C211A344F"
+        },
+        {
+          "path": "js/rus-config-donetsk-license.js",
+          "sha256": "B28D5426A3BFE2D5A9578DCFFC46CBACD8B5F5B85EF63C200DCEFD2917DB9E7D"
+        },
+        {
+          "path": "js/rus-config-donetsk-inav-launcher.js",
+          "sha256": "01185E9B9041DB1B0F9687EE2EA17EF1931DECEAE15000D6AA4BEE1B16AF473B"
+        },
+        {
+          "path": "js/rus-config-donetsk-return-to-starter.js",
+          "sha256": "5FC40B1DA87B029B3DBAC9A5B95D36EF47633115404FF92AF256DD5A2B05F7C7"
         },
         {
           "path": "css/rus-config-donetsk.css",
-          "sha256": "43C799F7F4F0CC1B8A8C1D5F09944A79B052E0697821BB02138E67A07C465DC4"
+          "sha256": "ABA6A3AF449C3A3B4E95705367D3B76CEBB5BD2FC27B90681867B7A5D76A44E9"
         },
         {
-          "path": "tabs/landing.html",
-          "sha256": "18EB991621E95090F1450FE13FA78FD093611ECB523D94424DA86A3F3CB8F764"
+          "path": "CHANGELOG.md",
+          "sha256": "72DACC0E2E05EDAF08CC525B7735A843AF5826C1ECBD34D3A914A6F852D64369"
         },
         {
-          "path": "tabs/osd.html",
-          "sha256": "EA4042E2138D15A46CCB0F341C4941502612ABEDEFC1B16A23BC93C627E7A081"
+          "path": "ARCHITECTURE.md",
+          "sha256": "70BE9C9552F38AB9B0810CB4A9B0FE295053D0281BC1B58B5912E4E8FC9B217E"
         },
         {
-          "path": "images/rus-config-ai-shield.png",
-          "sha256": "03D5EBF3DD4DA25757FF4A131985462815C30AD613918804167FC44E1B9F2F6D"
-        },
-        {
-          "path": "images/rus-config-landing-pid-master.png",
-          "sha256": "08C74EA22EDA4C98C9D2DF8184B07D550CB400FEB31430921979788C9BC8C5F3"
-        },
-        {
-          "path": "images/rus-config-landing-inav.png",
-          "sha256": "B9E7EA8879EF64C9A8F5C38231BB7C2A0F07D62355B8AD972799EA646F6FB167"
-        },
-        {
-          "path": "images/rus-config-landing-rx-flasher.png",
-          "sha256": "FD8926DF21848334C839C9A4B0BF63254CEC477FB93BACDA72A55138A4E186A4"
-        },
-        {
-          "path": "images/rus-config-landing-milbeta-fc.png",
-          "sha256": "94643A089CA8A99BD199557F8BABCBD021053AC5B5A7154D65C66536DD6E0694"
-        },
-        {
-          "path": "images/droneflight_cli_logo_mono_gray.png",
-          "sha256": "DA82138EC92D6398EDC2372B625D7EB6FAA2EA267B7F718A0172CD45696E34DD"
+          "path": "smoke-test.js",
+          "sha256": "F637189CD7352F63C4F5B432A859CE276FBD77460EB6971AF89139BAD9EED2F6"
         }
       ]
     }
