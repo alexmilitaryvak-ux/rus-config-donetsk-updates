@@ -1,34 +1,34 @@
 {
-  "version": "1.38",
-  "appVersion": "1.38",
-  "displayVersion": "version AI 0.7",
-  "aiVersion": "0.7",
-  "title": "RUS Config Donetsk version AI 0.7",
-  "package": "RUS_Config_Donetsk_1.38_CUMULATIVE_UPDATE.zip",
-  "date": "2026-06-17",
+  "version": "1.39",
+  "appVersion": "1.39",
+  "displayVersion": "version AI 0.8",
+  "aiVersion": "0.8",
+  "title": "RUS Config Donetsk version AI 0.8",
+  "package": "RUS_Config_Donetsk_1.39_CYBER_TERMINAL_UPDATE.zip",
+  "date": "2026-07-28",
   "cumulative": true,
   "notes": [
-    "Polnoe nakopitelnoe obnovlenie RUS Config Donetsk version AI 0.7: glubokaya pererabotka assistenta (10 etapov) + 29 bagov audita.",
-    "Assistant ponimaet opechatki (fuzzy matching), pomnit kontekst dialoga, zadaet utochnyayuschie voprosy pri neodnoznachnosti.",
-    "Novye intenty: interaktivnaya diagnostika arminga, obyasnenie CLI-nastroek (set p_roll, motor_idle i dr.), rezume sessii, polnyy eksport nastroek.",
-    "Bezopasnost: umnyy gate pered zapisyu na FC (kritichnaya batareya, zanyatyy CLI, vopros o propellerah), validaciya opasnyh set-znacheniy.",
-    "Tihiy bedzh problem: RXLOSS/NO_GYRO, failsafe vyklyuchen, OSD bez napryazheniya, motor_idle zavysen - proveryaet FC kazhdye 10s bez interneta.",
-    "Kontekstnye quick-chip knopki nad polem vvoda, avtodopolnenie komand (75 podskazok), zhurnal pravok s undo i slepkom konfiguracii.",
-    "Otvety na terminy: DFU, PID, rates, ELRS, CRSF, SBUS, GPS Rescue, Blackbox, RPM-filtr, Turtle Mode i dr. (~37 terminov + dinamicheskiy slovar iz damping FC).",
-    "29 bagov pochineno: strelka vetra 90 gradusov, ARM/PREARM kolliZIYa, clamp NaN v PID-buildere, CLI race pri rekonnekte, i dr. (sm. CHANGELOG.md).",
-    "Proizvoditelnost: memoizaciya kesha reliefa (karta svyazi bystree v desyatki raz).",
-    "Versiya prilozheniya podnyata do version AI 0.7, tehnicheskaya versiya: 1.38. Vse rabotaet offline, bez interneta."
+    "Добавлена полноценная тема Cyber: технический интерфейс в стиле hacking по всему приложению.",
+    "Добавлен Cyber Terminal с командной строкой `PS Rus_Config_Donetsk\\Hucker>` и кнопкой `>_` рядом с AI-чатом.",
+    "Терминал теперь выполняет операции: чтение, загрузка и очистка прошивки STM32/DFU полетника с подтверждениями.",
+    "Перед загрузкой прошивки терминал предлагает авто-бэкап текущей прошивки и сохраняет резервную копию в `Desktop\\RUS_Config_Backups`.",
+    "Добавлено чтение flash ELRS приемника/передатчика через esptool, анализ BIN/HEX/UF2, SHA256/MD5 и TXT-отчеты на рабочем столе.",
+    "Добавлены команды ELRS: определение UID, поиск bind phrase по словарю, проверка и сравнение прошивок.",
+    "Добавлена фактическая проверка утилит и драйверов на текущем ПК: STM32 CLI, Python, pip, esptool, pyserial, COM/USB, CH340/CP210x/FTDI/WinUSB.",
+    "Команды `проверь утилиты`, `проверь драйвера`, `drivers`, `tools` теперь запускают локальный аудит и предлагают установку недостающего.",
+    "Исправлены визуальные проблемы Cyber UI: подсветка вкладок, компактная кнопка Cyber, OSD без кнопки `Центр ПВХ`, Failsafe-схемы дронов и ширина блоков.",
+    "После операций терминал ведет журнал в `Desktop\\RUS_Config_Logs`."
   ],
-  "packageUrl": "https://github.com/alexmilitaryvak-ux/rus-config-donetsk-updates/releases/download/rcd-1.38/RUS_Config_Donetsk_1.38_CUMULATIVE_UPDATE.zip",
-  "assetApiUrl": "https://api.github.com/repos/alexmilitaryvak-ux/rus-config-donetsk-updates/releases/assets/450932880",
-  "sha256": "9D48D17838D19FAF9074BB0386207FA4F1964E49771456B345999885C2D74193",
-  "size": 375652007,
-  "packageSize": 375652007,
+  "packageUrl": "https://github.com/alexmilitaryvak-ux/rus-config-donetsk-updates/releases/download/rcd-1.39/RUS_Config_Donetsk_1.39_CYBER_TERMINAL_UPDATE.zip",
+  "assetApiUrl": "https://api.github.com/repos/alexmilitaryvak-ux/rus-config-donetsk-updates/releases/assets/492794226",
+  "sha256": "8D32D218AB9C131A4129ADCF46172ECB627150A88908F29BB2FBF07D8E29F575",
+  "size": 100881586,
+  "packageSize": 100881586,
   "packages": [
     {
       "version": "1.38",
       "displayVersion": "version AI 0.7",
-      "name": "Polnoe obnovlenie version AI 0.7: pererabotka assistenta (10 etapov), 29 bagov, bezopasnost, offline",
+      "name": "Polnoe nakopitelnoe obnovlenie version AI 0.7: pererabotka assistenta (10 etapov), 29 bagov, bezopasnost, offline",
       "cumulative": true,
       "package": "RUS_Config_Donetsk_1.38_CUMULATIVE_UPDATE.zip",
       "packageUrl": "https://github.com/alexmilitaryvak-ux/rus-config-donetsk-updates/releases/download/rcd-1.38/RUS_Config_Donetsk_1.38_CUMULATIVE_UPDATE.zip",
@@ -38,7 +38,7 @@
       "files": [
         {
           "path": "package.json",
-          "sha256": "B003355312A8CB266523F5CFC3DD620FC3008375742F0C0E6CA3E926049FD00E"
+          "sha256": "B003355312A8CB266523F5CFC3DC620FC3008375742F0C0E6CA3E926049FD00E"
         },
         {
           "path": "common.js",
@@ -46,7 +46,7 @@
         },
         {
           "path": "landing.js",
-          "sha256": "1BBFCC33FE9120A1BD9477435E8F01DBD37D79767EE0DEB7D5BFD2E8BE035618"
+          "sha256": "1BBFCC33FEF120A1BD9477435E8F01DBD37D79767EE0DEB7D5BFD2E8BE035618"
         },
         {
           "path": "firmware_flasher.js",
@@ -54,7 +54,7 @@
         },
         {
           "path": "js/main.js",
-          "sha256": "FB8A916DC33C55D550A689E951B40B987D41B6FD526F5BF08DAEBDEA5CCD2415"
+          "sha256": "FB8A916DC33C55C550A689E951BC40B987D41B6FD526F5BF08DAEBDEA5CCD2415"
         },
         {
           "path": "js/rus-config-donetsk-vtx-tables.js",
@@ -66,7 +66,7 @@
         },
         {
           "path": "js/rus-config-donetsk-hold-modes.js",
-          "sha256": "83E0C9E58422281C15BF43C736EA7248455638111C829D0FEC56DA4C211A344F"
+          "sha256": "83E0C9E58422281C15BF43C736EA724845563811C829D0FEC56DA4C211A344F"
         },
         {
           "path": "js/rus-config-donetsk-license.js",
@@ -74,7 +74,7 @@
         },
         {
           "path": "js/rus-config-donetsk-inav-launcher.js",
-          "sha256": "01185E9B9041DB1B0F9687EE2EA17EF1931DECEAE15000D6AA4BEE1B16AF473B"
+          "sha256": "01185E9B9041DB1B0F9687EE2EA17EF1931DECEEE15000D6AA4BEE1B16AF473B"
         },
         {
           "path": "js/rus-config-donetsk-return-to-starter.js",
@@ -95,6 +95,135 @@
         {
           "path": "smoke-test.js",
           "sha256": "F637189CD7352F63C4F5B432A859CE276FBD77460EB6971AF89139BAD9EED2F6"
+        }
+      ]
+    },
+    {
+      "version": "1.39",
+      "displayVersion": "version AI 0.8",
+      "name": "Cyber Terminal update version AI 0.8: theme, firmware operations, dependency doctor",
+      "cumulative": false,
+      "package": "RUS_Config_Donetsk_1.39_CYBER_TERMINAL_UPDATE.zip",
+      "packageUrl": "https://github.com/alexmilitaryvak-ux/rus-config-donetsk-updates/releases/download/rcd-1.39/RUS_Config_Donetsk_1.39_CYBER_TERMINAL_UPDATE.zip",
+      "assetApiUrl": "https://api.github.com/repos/alexmilitaryvak-ux/rus-config-donetsk-updates/releases/assets/492794226",
+      "sha256": "8D32D218AB9C131A4129ADCF46172ECB627150A88908F29BB2FBF07D8E29F575",
+      "size": 100881586,
+      "files": [
+        {
+          "path": "package.json",
+          "sha256": "4EE71A3484D3F3FF9CC9A71DEF20141799EAE303904CFFC2EB37C555679EF5F1"
+        },
+        {
+          "path": "main.html",
+          "sha256": "1154488B9C49375B685BE1966713C8447B57526BC6AB447641308E6F3372E628"
+        },
+        {
+          "path": "landing.js",
+          "sha256": "1BBFCC33FE9120A1BD9477435E8F01DBD37D79767EE0DEB7D5BFD2E8BE035618"
+        },
+        {
+          "path": "firmware_flasher.js",
+          "sha256": "2C5B2F44BCB67CB415B48C0C35236FE7B12263E3EE31819202D4822BD0EAAB80"
+        },
+        {
+          "path": "presets.js",
+          "sha256": "172416FE9141CE43737C3E2FCA8025B25870E32846BB944B7C8AD66C13E8633D"
+        },
+        {
+          "path": "smoke-test.js",
+          "sha256": "441F32F6A66A5B2D88E2FCFF11318F2F6B5AC6FEB54CC49B25821609ADE175F0"
+        },
+        {
+          "path": "CHANGELOG.md",
+          "sha256": "72DACC0E2E05EDAF08CC525B7735A843AF5826C1ECBD34D3A914A6F852D64369"
+        },
+        {
+          "path": "ARCHITECTURE.md",
+          "sha256": "70BE9C9552F38AB9B0810CB4A9B0FE295053D0281BC1B58B5912E4E8FC9B217E"
+        },
+        {
+          "path": "rus-config-donetsk-updater.ps1",
+          "sha256": "CD4D10B687E0789EBFA19E4213923CC1FFAD5841A38370E2B7084C6E3E623B0F"
+        },
+        {
+          "path": "rus-config-donetsk-model-downloader.ps1",
+          "sha256": "AFF4C3B2EDCC7D778DF59E41EE16AA2FBA4EF9707095F4F66943077C2608CCFE"
+        },
+        {
+          "path": "rus-config-donetsk-model-launcher.cmd",
+          "sha256": "9D1A6D4CDAAC8E357BDE0A007DCC9A19F940DD9AE318D03C8E36F7D3B9FDAFCD"
+        },
+        {
+          "path": "tabs/landing.html",
+          "sha256": "17E40ABA765125DE010BE35788BB3AD063B3FCC568363B8721D2662BE94967C1"
+        },
+        {
+          "path": "css/rus-config-donetsk.css",
+          "sha256": "7CB355FB35ADDB7DE6F753734C494F48244DF1714FEA444B2C94ECDAF75795E8"
+        },
+        {
+          "path": "js/main.js",
+          "sha256": "03314709A01564B6A4EB9B79E2D41A59B777E536E583A163CCD62AB80AAB39F1"
+        },
+        {
+          "path": "js/rus-config-donetsk-vtx-tables.js",
+          "sha256": "BA5330248661BD305C81B11DB3F3127EB623187E98DA7DB8AE6AFB5FF5815FF8"
+        },
+        {
+          "path": "js/rus-config-donetsk-cyber-theme.js",
+          "sha256": "754F94C419C1CA5C05C0A8B4B9352014636A96BDFDB2A074807D8499660829E1"
+        },
+        {
+          "path": "js/rus-config-donetsk-bf-pid-builder.js",
+          "sha256": "26522D107BA7EE582691FBFF99D79C07A08D06E1ED8723F3B683E5A45319799A"
+        },
+        {
+          "path": "js/rus-config-donetsk-hold-modes.js",
+          "sha256": "83E0C9E58422281C15BF43C736EA7248455638111C829D0FEC56DA4C211A344F"
+        },
+        {
+          "path": "js/rus-config-donetsk-license.js",
+          "sha256": "B28D5426A3BFE2D5A9578DCFFC46CBACD8B5F5B85EF63C200DCEFD2917DB9E7D"
+        },
+        {
+          "path": "js/rus-config-donetsk-inav-launcher.js",
+          "sha256": "5D3B132E6266FB0A2C75E071DA5F8986248918E33B2414AB92374F6FA21545F0"
+        },
+        {
+          "path": "js/rus-config-donetsk-return-to-starter.js",
+          "sha256": "77CC4F609AC44468BBB409F5531039BFD073A3FC9E1F9802BD78E6E5FAA24776"
+        },
+        {
+          "path": "models/registry.json",
+          "sha256": "52B603FDE9A5929A617386E9AF4500E1FFCF7E407A26D747B179337BB29163AE"
+        },
+        {
+          "path": "elrs-flashdumper/ELRS_FlashDumper.exe",
+          "sha256": "E363AAA882309B4C71F11BC5635D675278D55EBA4A095FE2A32697CCA11A485D"
+        },
+        {
+          "path": "elrs-flashdumper/elrs_flash_dumper.ico",
+          "sha256": "7D7A20A230C242BE3B1F364E3AE18C61D90500B76CEBA8B40E9C091A15D6F684"
+        },
+        {
+          "path": "llama/llama-server.exe",
+          "sha256": "8B6410A1C7E9BCB86555D78C7A556E19E2F15B7907B1B90E19FA23DA095B6297"
+        },
+        {
+          "path": "tools/stm32-cli/bin/stm32pr.exe",
+          "sha256": "790DC2B95AE8F4A4C4DAF79914CF6ECA379D4C9D02D63D3A6A9E3A7ADF61D64E"
+        },
+        {
+          "path": "tools/stm32-cli/Data_Base/STM32_Prog_DB_0x413.xml",
+          "sha256": "DBA33C204DE70375507F2870C2039B58AEC10B9C2A73E651E0E094B6B61B9E65"
+        },
+        {
+          "path": "tools/elrs-flash-tool/elrs_flash_tool.py",
+          "sha256": "879C6B8EA5AD6263DF94E50A32AF63318B6F7E0ED736F77848629C664F201148"
+        },
+        {
+          "path": "tools/elrs-flash-tool/start_elrs_flash_tool.cmd",
+          "sha256": "6F42BE1C3EDC67F58A791756D3A87A5C9AC8AD16B19EA19C9BFF2AB6829428B8"
         }
       ]
     }
